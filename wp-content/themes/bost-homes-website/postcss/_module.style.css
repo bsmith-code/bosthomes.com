@@ -1,0 +1,62 @@
+/* ------------------------------------------------------------ *\
+	Wrapper
+\* ------------------------------------------------------------ */
+
+.wrapper { min-height: 100vh; position: relative; overflow: hidden; }
+/* .wrapper > section.active .article-primary .article-body,
+.wrapper > section.active .article-primary .article-image > img { opacity: 1; }
+.wrapper > section.active .article-primary .article-body {
+	-webkit-transform: translate(0px,0px);
+			transform: translate(0px,0px);
+}
+.wrapper > section.active .article-primary .article-image > img,
+.wrapper .inner-image.active,
+.wrapper .inner-box.active { opacity: 1; }
+.wrapper > section.active .article-primary .article-image > img,
+.wrapper .inner-image.active,
+.wrapper .inner-box.active {
+	-webkit-transform: translate(0px,0px) scale(1);
+			transform: translate(0px,0px) scale(1);	
+} */
+
+.animation-from-left-to-right { transform: translate(-250px,0px) scale(1);	opacity: 0; transition: all .3s; }
+.animation-from-left-to-right.active { transform: translate(0,0px) scale(1);opacity: 1; }
+
+.animation-from-right-to-left { transform: translate(250px,0px) scale(1);	opacity: 0; transition: all .3s; }
+.animation-from-right-to-left.active {  transform: translate(0,0px) scale(1);	opacity: 1; transition: all .3s; }
+
+.animation-from-top-to-bottom { transform: translate(0,-250px) scale(1);	opacity: 0; transition: all .3s; }
+.animation-from-top-to-bottom.active { transform: translate(0,0) scale(1);	opacity: 1; transition: all .3s; }
+
+.animation-from-bottom-to-top { transform: translate(0,250px) scale(1); opacity: 0; transition: all .3s;  }
+.animation-from-bottom-to-top.active { transform: translate(0,0) scale(1);	opacity: 1; transition: all .3s; }
+
+.animation-zoom { transform: translate(0,0) scale(0); opacity: 0; transition: all .6s;  }
+.animation-zoom.active { transform: translate(0,0) scale(1); opacity: 1; transition: all .6s;  }
+
+/* ------------------------------------------------------------ *\ 
+	Body Classes
+\* ------------------------------------------------------------ */
+	
+	/*
+		- Home
+	*/
+	
+body.home .section { overflow: hidden; }
+
+/* ------------------------------------------------------------ *\ 
+	Transitions
+\* ------------------------------------------------------------ */
+
+a {
+	-webkit-transition: color 0.4s, background 0.4s;
+			transition: color 0.4s, background 0.4s;
+}
+
+/* ------------------------------------------------------------ *\ 
+	Responsive
+\* ------------------------------------------------------------ */
+
+$breakpoint-mobile {
+	body.show-nav-main { position: relative; overflow: hidden; }
+}

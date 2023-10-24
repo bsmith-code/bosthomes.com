@@ -1,0 +1,54 @@
+/* ------------------------------------------------------------ *\ 
+	Footer
+\* ------------------------------------------------------------ */
+
+	/*
+		- Base
+	*/
+
+.footer { width: 100%; padding: 64px 0; background: url(images/footer.jpg) repeat center 0; border-top: 3px solid #5b5e5c; background-attachment: fixed; position: relative; overflow: hidden; }
+.footer .footer-logos { width: 100%; }
+.footer .footer-logos h6 { text-align: center; text-transform: uppercase; font-size: 18px; line-height: 1.33; color: #868f87; margin-bottom: 30px; }
+.footer .footer-bar { width: 100%; }
+.footer .footer-bar .shell { border-top: 3px solid #5e605e; padding: 46px 0 0 0; max-width: 1170px; }
+.footer .footer-bar-content { float: left; width: calc(100% - 460px); color: #868f87; }
+.footer .footer-bar-content h6 { font-size: 16px; line-height: 1.75; font-weight: 700; text-transform: uppercase; }
+.footer .footer-bar-content a { color: #868f87; }
+.footer .footer-bar-content p { font-size: 13px; line-height: 1.38; }
+.footer .footer-bar-content p a { text-decoration: underline; }
+.footer .footer-bar-content p a:hover { text-decoration: none; }
+.footer .socials { float: right; }
+
+/* ------------------------------------------------------------ *\ 
+	Responsive
+\* ------------------------------------------------------------ */
+
+$breakpoint-small-desktop {
+
+		/*
+			- Base
+		*/
+
+	.footer .footer-bar .shell { padding-left: 20px; padding-right: 20px; }
+}
+
+$breakpoint-tablet-portrait {
+		
+		/*
+			- Base
+		*/
+
+	.footer { background-attachment: scroll; }
+}
+
+$breakpoint-mobile {
+
+		/*
+			- Base
+		*/
+
+	.footer .socials { text-align: center; float: none; }
+	.footer .socials ul { margin: -3px; }
+	.footer .socials li { padding: 3px; }
+	.footer .footer-bar-content { float: none; width: auto; padding-top: 20px; text-align: center; }
+}

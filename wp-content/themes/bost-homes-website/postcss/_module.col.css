@@ -1,0 +1,45 @@
+/* ------------------------------------------------------------ *\ 
+	Cols
+\* ------------------------------------------------------------ */
+
+	/*
+		- Base
+	*/
+
+.cols { position: relative; }
+.cols:after { content: ' '; display: table; clear: both; }
+.cols > ul { list-style: none; position: relative; overflow: hidden; margin: -15px; }
+.cols > ul > li { float: left; width: 100%; padding: 15px; }
+.cols > ul.col-1of2 > li { width: 50%; }
+.cols > ul.col-1of3 > li { width: 33.333%; }
+.cols > ul.col-1of4 > li { width: 25%; }
+.cols > ul.col-1of5 > li { width: 20%; }
+.cols > ul.col-center { max-width: 430px; margin: 0 auto; text-align: center; }
+.cols .inner-image { max-width: 235px; }
+
+/* ------------------------------------------------------------ *\ 
+	Responsive
+\* ------------------------------------------------------------ */
+
+$breakpoint-tablet-landscape2 {
+	
+		/*
+			- Base
+		*/
+	
+	.cols > ul { margin: 0; }
+	.cols > ul > li { padding: 0; float: none; }
+	.cols > ul.col-1of2 > li,
+	.cols > ul.col-1of3 > li,
+	.cols > ul.col-1of4 > li,
+	.cols > ul.col-1of5 > li { width: 100%; }
+}
+
+$breakpoint-mobile {
+		
+		/*
+			- Base
+		*/
+
+	.cols .inner-image { margin: 0 auto 20px !important; float: none; display: block; }
+}

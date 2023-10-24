@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------ *\ 
+	Pages
+\* ------------------------------------------------------------ */
+
+	/*
+		- Gallery
+	*/
+
+body.page-template-gallery .footer .footer-bar .shell { padding: 0; }
+body.page-template-gallery .footer .footer-logos,
+body.page-template-gallery .section-outro { display: none; }
+body.page-template-gallery .inner-box-small .inner-head h4 strong:before,
+body.page-template-gallery .inner-box-small .inner-head h4 strong:after { display: none; }
+
+	/*
+		- Gallery Single
+	*/
+
+body.page-template-gallery-single .footer .footer-bar .shell { padding: 0; }
+body.page-template-gallery-single .footer .footer-logos,
+body.page-template-gallery-single .section-outro { display: none; }

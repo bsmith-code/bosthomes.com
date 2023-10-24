@@ -1,0 +1,70 @@
+/* ------------------------------------------------------------ *\ 
+	Header
+\* ------------------------------------------------------------ */
+
+	/*
+		- Base
+	*/
+
+.home .header { position: fixed; left: 0; right: 0; top: 0; background-color: rgba(70,75,71,0); padding: 10px 0; border-bottom: 3px solid transparent; z-index: 900; transition: border 0.4s, background 0.4s; }
+.header:hover { border-bottom-color: #70716f; background-color: rgba(70,75,71,0.85); }
+.header .shell { max-width: none; padding: 0 75px; }
+.header .logo { float: left; }
+.header .nav { float: right; padding: 6px 0 0 0; }
+.header + section:not(.section-slider) { padding-top: 170px; }
+
+	/*
+		- Body Classes
+	*/
+.logged-in .header {margin-top:32px;}
+.home.show-fixed-header .header { border-bottom-color: #70716f; background-color: rgba(70,75,71,0.85); }
+.header { position: fixed; left: 0; right: 0; top: 0; border-bottom-color: #70716f; background-color: rgba(70,75,71,0.85); padding: 10px 0; border-bottom: 3px solid transparent; z-index: 900; transition: border 0.4s, background 0.4s;}
+
+/* ------------------------------------------------------------ *\ 
+	Responsive
+\* ------------------------------------------------------------ */
+
+$breakpoint-tablet-portrait {
+		
+		/*
+			- Base
+		*/
+
+	.header .shell { padding: 0 20px; }
+}
+
+$breakpoint-mobile {
+
+		/*
+			- Base
+		*/
+
+	.header + section:not(.section-slider) { padding-top: 76px; }
+	.header .btn-main { float: right; margin: 7px 0 0 0; }
+	.header .nav { position: fixed; left: 0; right: 0; top: 72px; bottom: 0; z-index: 800; background-color: rgba(70,75,71,0.85); height: calc(100vh - 72px); text-align: center; overflow-y: auto; opacity: 0; visibility: hidden; }
+	.header .nav {
+		-webkit-transition: opacity 0.4s, visibility 0.4s;
+				transition: opacity 0.4s, visibility 0.4s;
+	}
+	.header .nav > ul > li > a { display: none; }
+	.header .nav > ul > li > ul { display: block; position: relative; left: 0; right: auto; top: 0; bottom: 0; z-index: 100; background-color: rgba(0,0,0,1); }
+	.header .nav > ul > li:hover > ul,
+	.header .nav ul ul {
+		-webkit-transform: none;
+				transform: none;
+	}
+	.header .nav li { position: relative; }
+	.header .nav li.hover ul { display: block; }
+	.header .nav > ul > li > ul:after, 
+	.header .nav > ul > li > ul:before { display: none; }
+	.header .nav li:hover > ul, 
+	.header .nav li:hover > ul ul { opacity: 1; visibility: visible; }
+
+		/*
+			- Body Classes
+		*/
+
+	body.show-nav-main .header .nav > ul > li > ul,
+	body.show-nav-main .header .nav,
+	body.show-nav-main .header .nav ul ul { opacity: 1; visibility: visible; }
+}

@@ -1,0 +1,111 @@
+/* ------------------------------------------------------------ *\
+	Button
+\* ------------------------------------------------------------ */
+
+	/*
+		- Base
+	*/
+
+[class^="btn"] { display: inline-block; vertical-align: middle; text-align: center; cursor: pointer; position: relative; }
+[class^="btn"] {
+	-webkit-appearance: none;
+	 		appearance: none;
+}
+
+.btn { font-size: 14px; line-height: 20px; text-align: center; min-width: 120px; padding: 11px 20px; color: #fff; font-weight: 700; text-transform: uppercase; box-shadow: 2px 0 2px rgba(0,0,0,0.5); overflow: hidden; background-color: #5a6156; }
+.btn {
+	-webkit-transition: opacity 0.4s;
+			transition: opacity 0.4s;
+}
+.btn:hover { text-decoration: none; opacity: 0.75; }
+.btn:before,
+.btn:after { content: ' '; position: absolute; top: 0; background: url(images/sprite.png) no-repeat 0 0; width: 350px; height: 43px; }
+.btn:before { left: 0; background-position: 0 -412px; width: 50%; z-index: 2; max-width: 350px; }
+.btn:after { right: 0; background-position: 0 -456px; }
+.btn span { display: block; position: relative; z-index: 10; }
+
+	/*
+		- Block  
+	*/
+	
+.btn-block { display: block; padding-left: 0; padding-right: 0; }
+
+	/*
+		- Arrow
+	*/
+
+.btn-arrow { width: 45px; height: 45px; background-color: rgba(0,0,0,0.5); border-radius: 50%; color: #fff; font-size: 38px; line-height: 45px; text-align: center; }
+.btn-arrow:hover { text-decoration: none; background-color: rgba(0,0,0,1); }
+
+	/*
+		- Play
+	*/
+
+.btn-play { display: inline-block; vertical-align: top; font-size: 0; line-height: 0; text-indent: -4004px; background: url(images/sprite.png) no-repeat -222px -288px; width: 124px; height: 124px; }
+.btn-play {
+	-webkit-transition: opacity 0.4s;
+			transition: opacity 0.4s;
+}
+.btn-play:hover { text-decoration: none; opacity: 0.75; }
+
+
+.btn-plus { width: 32px; height: 32px; border: 2px solid #6b3615; border-radius: 50%; color: #fff; font-size: 20px; line-height: 26px; text-align: center; background-color: #6b3615; cursor: pointer; }
+.btn-plus:hover { text-decoration: none; }
+.btn-plus:after {content: '+'; }
+
+	/*
+		- Mobile
+	*/
+
+.btn-main { display: none; }
+
+/* ------------------------------------------------------------ *\ 
+	Responsive
+\* ------------------------------------------------------------ */
+
+$retina {
+	.btn:after,
+	.btn-play { background-image: url(images/sprite@2x.png); background-size: 350px 700px; }
+}
+
+$breakpoint-mobile {
+		
+		/*
+			- Base
+		*/
+
+	.btn { font-size: 12px; }
+
+		/*
+			- Mobile
+		*/
+
+	.btn-main { display: inline-block; vertical-align: top; font-size: 0; line-height: 0; position: relative; width: 32px; height: 32px; }
+	.btn-main span,
+	.btn-main:before,
+	.btn-main:after { content: ' '; position: absolute; left: 0; right: 0; top: 50%; height: 4px; background-color: #b5babe; margin-top: -2px; }
+	.btn-main:before { margin-top: -9px; }
+	.btn-main:after { margin-top: 5px; }
+	.btn-main span,
+	.btn-main:before,
+	.btn-main:after {
+		-webkit-transition: opacity 0.4s, margin 0.4s, -webkit-transform 0.4s;
+				transition: opacity 0.4s, margin 0.4s, transform 0.4s;
+	}
+
+		/*
+			- Body Classes
+		*/
+
+	body.show-nav-main .btn-main span { opacity: 0; }
+	body.show-nav-main .btn-main:before,
+	body.show-nav-main .btn-main:after { margin-top: -2px; }
+	body.show-nav-main .btn-main:before {
+		-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+	}
+	body.show-nav-main .btn-main:after {
+		-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+	}
+}

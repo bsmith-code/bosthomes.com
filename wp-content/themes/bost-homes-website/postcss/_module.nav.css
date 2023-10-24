@@ -1,0 +1,109 @@
+/* ------------------------------------------------------------ *\ 
+	Navigations
+\* ------------------------------------------------------------ */
+
+	/*
+		- Main
+	*/
+
+.nav ul { list-style: none; font-size: 0; line-height: 0; }
+.nav li { display: inline-block; vertical-align: top; position: relative; font-size: 16px; line-height: 20px; padding: 0 15px 10px 15px; font-family: $font-josefin-sans; font-weight: 400; }
+.nav a { display: block; color: #fff; }
+.nav li.current-menu-item > a,
+.nav a:hover { text-decoration: none; color: #83aade; }
+.nav img { display: block; width: 52px; height: auto; }
+.nav ul ul { position: absolute; left: 50%; top: 100%; border: 1px solid #fff; opacity: 0; visibility: hidden; }
+.nav ul ul {
+	-webkit-transition: opacity 0.4s, visibility 0.4s, -webkit-transform 0.4s;
+			transition: opacity 0.4s, visibility 0.4s, transform 0.4s;
+}
+.nav > ul > li > ul:before { content: ' '; position: absolute; left: 50%; top: -9px; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #fff; margin-left: -10px; }
+.nav > ul > li > ul:after { content: ' '; position: absolute; left: 50%; top: -8px; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #989b99; margin-left: -10px; }
+.nav > ul > li > a span { display: none; }
+.nav > ul > li > ul > li > a { text-transform: uppercase; background-color: #989b99; font-weight: 700; }
+.nav > ul > li > ul > li > a:hover { background-color: #989b99; color: #000; }
+.nav ul ul {
+	-webkit-transform: translate(-50%,0);
+			transform: translate(-50%,0);
+}
+.nav > ul > li > ul {
+	-webkit-transform: scale(0.7) translate(-50%,20px);
+			transform: scale(0.7) translate(-50%,20px);	
+			z-index:999;
+}
+.nav ul ul li { display: block; padding: 0; }
+.nav ul ul li a { padding: 7px 7px; white-space: nowrap; }
+.nav ul ul li.current-menu-item > a,
+.nav ul ul li a:hover { background-color: #83aade; color: #fff; }
+.nav ul ul ul { position: relative; top: 0; left: 0; border: 0; background-color: rgba(0,0,0,0.75); }
+.nav ul ul li.current-menu-item.custom-link > a { background-color: initial; color: #fff; }
+.nav ul ul li.current-menu-item.custom-link a:hover { background-color: #83aade; color: #fff; }
+.nav ul ul ul {
+	-webkit-transform: none;
+			transform: none;
+}
+.nav li:hover > ul ul,
+.nav li:hover > ul { opacity: 1; visibility: visible; }
+.nav > ul > li:hover > ul {
+	-webkit-transform: scale(1) translate(-50%,0px);
+			transform: scale(1) translate(-50%,0px);	
+}
+
+	/*
+		- Paging
+	*/
+
+.nav-paging { width: 100%; position: relative; overflow: hidden; padding-top: 60px; }
+.nav-paging ul { list-style: none; font-size: 0; line-height: 0; text-align: center; }
+.nav-paging li { display: inline-block; vertical-align: top; position: relative; }
+.nav-paging li ~ li:before { content: ' '; position: absolute; left: -1px; top: 14px; bottom: 14px; width: 2px; background-color: #8e826b; }
+.nav-paging a { display: block; background-color: rgba(255,255,255,0.5); color: #2a668e; font-size: 18px; line-height: 48px; padding: 0 20px; font-weight: 700; }
+.nav-paging a:hover { text-decoration: none; background-color: rgba(255,255,255,1); }
+
+/* ------------------------------------------------------------ *\ 
+	Responsive
+\* ------------------------------------------------------------ */
+
+$breakpoint-tablet-portrait {
+
+		/*
+			- Main
+		*/
+
+	.nav li:hover > ul ul,
+	.nav li:hover > ul { opacity: 0; visibility: hidden; }
+	.nav > ul > li:hover > ul {
+		-webkit-transform: scale(0.7) translate(-50%,20px);
+				transform: scale(0.7) translate(-50%,20px);	
+	}
+	.nav li.hover > ul ul,
+	.nav li.hover > ul { opacity: 1; visibility: visible; }
+	.nav > ul > li.hover > ul {
+		-webkit-transform: scale(1) translate(-50%,0px);
+				transform: scale(1) translate(-50%,0px);	
+	}
+}
+
+$breakpoint-tablet-landscape {
+		
+		/*
+			- Main
+		*/
+
+	.nav li { padding: 0 5px 10px 5px; font-size: 14px; }
+}
+
+$breakpoint-mobile {
+		
+		/*
+			- Main
+		*/
+
+	.nav > ul > li.hover > ul { top: 100%; left: 50%; }
+	.nav li { padding: 0 20px 10px; display: block; text-align: left; font-weight: 600; }
+	.nav img { display: none; }
+	.nav > ul > li > a { display: none; }
+	.nav > ul > li > a span { display: block; }
+	.nav > ul > li > ul:before,
+	.nav > ul > li > ul:after { left: 10px; margin: 0; }
+}

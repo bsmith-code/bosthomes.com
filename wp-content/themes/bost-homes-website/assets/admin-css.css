@@ -1,0 +1,15 @@
+.group-tabs-nav-holder > .group-tabs-nav { counter-reset: group-name; }
+.group-tabs-nav-holder > .group-tabs-nav .group-name { counter-increment: group-name; }
+.group-tabs-nav-holder > .group-tabs-nav .group-name span.counter:after { content: counter(group-name) " "; }
+
+.group-tabs-nav .group-name span.color { display: inline-block; width: 18px; height: 18px; border: 1px solid  #ccc; border-radius: 3px; vertical-align: bottom; }
+.group-tabs-nav .group-name span.image-holder { display: inline-block; width: 18px; height: 18px; border: 1px solid  #ccc; border-radius: 3px; vertical-align: bottom; background-repeat: no-repeat; background-position: 50% 50%; -webkit-background-size: contain; background-size: contain; }
+.group-tabs-nav .group-name span.image-holder-double { width: 55px; height: 55px; }
+.layout-tabbed-horizontal > .group-tabs-nav-holder > .group-tabs-nav .group-name { width: 68px!important; }
+
+/* 
+    Carbon Complex max reached issue fix
+*/
+
+.max-reached > .carbon-subcontainer > .groups-wrapper > .carbon-groups-holder > .carbon-group-row > .carbon-group-actions > .carbon-btn-duplicate { display: none; }
+.max-reached > .carbon-subcontainer > .groups-wrapper > .carbon-groups-holder > .carbon-group-row > .carbon-group-actions > .carbon-btn-duplicate + .carbon-btn-remove { margin-left: 0; }

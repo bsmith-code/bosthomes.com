@@ -1,0 +1,49 @@
+$font-size-base:					16px;
+$line-height-base:					1.56;
+
+
+$shell-max-width:					1170px;
+$shell-gutter:						50px;
+
+
+$font-family-sans-serif:			'Arial', 'Helvetica', sans-serif;
+$font-family-serif:					'Times', serif;
+$font-open-sans:					'Open Sans', 'Helvetica', sans-serif;
+$font-droid-serif:					'Droid Serif', 'Helvetica', sans-serif;
+$font-montserrat:					'Montserrat', 'Helvetica', sans-serif;
+$font-josefin-sans:					'Josefin Sans', 'Helvetica', serif;
+$font-josefin-slab:					'Josefin Slab', 'Helvetica', serif;
+$font-satisfy:						'Satisfy', cursive;
+
+$color-brown: 						#6b3615;
+$color-gray: 						#565a56;
+$color-white: 						#fff;
+$color-black: 						#000;
+$color-orange: 						#e9a328;
+$color-blue: 						#2a668e;
+$color-red: 						#ff0000;
+
+
+$responsive-xxxs: 					350px;
+$responsive-xxs: 					479px;
+$responsive-xs: 					767px;
+$responsive-xs2: 					768px;
+$responsive-sm: 					1024px;
+$responsive-sm2: 					985px;
+$responsive-md: 					1200px;
+$responsive-md2: 					1259px;
+$responsive-md3: 					1330px;
+$responsive-md4: 					1520px;
+
+
+$breakpoint-mobile-small:			@media (max-width: $responsive-xxxs);
+$breakpoint-mobile-portrait:		@media (max-width: $responsive-xxs);
+$breakpoint-mobile:					@media (max-width: $responsive-xs);
+$breakpoint-tablet-portrait:		@media (max-width: $responsive-sm);
+$breakpoint-tablet-landscape:		@media (min-width: $responsive-xs2) and (max-width: $responsive-sm2);
+$breakpoint-tablet-landscape2:		@media (max-width: $responsive-sm2);
+$breakpoint-small-desktop:			@media (max-width: $responsive-md);
+$breakpoint-medium-desktop:			@media (max-width: $responsive-md2);
+$breakpoint-large-desktop:			@media (max-width: $responsive-md3);
+$breakpoint-extra-large-desktop:	@media (max-width: $responsive-md4);
+$retina:							@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi);

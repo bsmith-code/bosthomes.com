@@ -1,0 +1,51 @@
+/* ------------------------------------------------------------ *\ 
+	Icons
+\* ------------------------------------------------------------ */
+
+[class^="ico-"] { font-size: 0; line-height: 0; text-indent: -4004px; display: inline-block; vertical-align: top; position: relative; }
+
+	/*
+		- Socials
+	*/
+
+.ico-social { background: url(images/sprite.png) no-repeat 0 0; width: 53px; height: 53px; position: relative; }
+.ico-social:before { content: ' '; position: absolute; left: 0; top: 0; width: inherit; height: inherit; background: url(images/sprite.png) no-repeat 0 0; opacity: 0; transition: opacity 0.4s; }
+.ico-social:hover:before { opacity: 1; }
+.ico-social.ico-googleplus { background-position: -5px -234px; }
+.ico-social.ico-googleplus:before { background-position: -268px -575px; }
+.ico-social.ico-pinterest { background-position: -68px -234px; }
+.ico-social.ico-pinterest:before { background-position: -200px -639px; }
+.ico-social.ico-angle { background-position: -134px -234px; }
+.ico-social.ico-angle:before { background-position: -203px -575px; }
+.ico-social.ico-facebook { background-position: -5px -292px; }
+.ico-social.ico-facebook:before { background-position: -8px -639px; }
+.ico-social.ico-twitter { background-position: -69px -292px; }
+.ico-social.ico-twitter:before { background-position: -72px -639px; }
+.ico-social.ico-youtube { background-position: -134px -292px; }
+.ico-social.ico-youtube:before { background-position: -137px -639px; }
+
+/* ------------------------------------------------------------ *\ 
+	Responsive
+\* ------------------------------------------------------------ */
+
+$retina {
+	.ico-social,
+	.ico-social:before { background-image: url(images/sprite@2x.png); background-size: 350px 700px; }
+}
+
+$breakpoint-mobile {
+	.ico-social { background-size: 250px 500px; width: 37px; height: 37px; }
+	.ico-social:before { background-size: 250px 500px; }
+	.ico-social.ico-googleplus { background-position: -4px -168px; }
+	.ico-social.ico-googleplus:before { background-position: -192px -411px; }
+	.ico-social.ico-pinterest { background-position: -50px -168px; }
+	.ico-social.ico-pinterest:before { background-position: -144px -457px;  }
+	.ico-social.ico-angle { background-position: -96px -168px; }
+	.ico-social.ico-angle:before { background-position: -146px -411px; }
+	.ico-social.ico-facebook { background-position: -4px -209px; }
+	.ico-social.ico-facebook:before { background-position: -6px -457px; }
+	.ico-social.ico-twitter { background-position: -50px -209px; }
+	.ico-social.ico-twitter:before { background-position: -52px -457px; }
+	.ico-social.ico-youtube { background-position: -96px -209px; }
+	.ico-social.ico-youtube:before { background-position: -98px -457px; }
+}

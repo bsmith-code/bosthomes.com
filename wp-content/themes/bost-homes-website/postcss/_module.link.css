@@ -1,0 +1,24 @@
+/* ------------------------------------------------------------ *\ 
+	Links
+\* ------------------------------------------------------------ */
+
+	/*
+		- Icon
+	*/
+
+.link-icon { display: inline-block; vertical-align: top; color: $color-brown; font-family: $font-droid-serif; font-weight: 400; font-style: italic; font-size: 22px; line-height: 30px; text-decoration: underline; position: relative; padding-left: 62px; margin-bottom: 5px; }
+.link-icon img { position: absolute; left: 0; top: -5px; }
+
+/* ------------------------------------------------------------ *\ 
+	Responsive
+\* ------------------------------------------------------------ */
+
+$breakpoint-mobile {
+
+		/*
+			- Icon
+		*/
+
+	.link-icon { font-size: 14px; line-height: 30px; padding-left: 40px; }
+	.link-icon img { width: 34px; height: auto; top: -1px; }
+}

@@ -1,0 +1,40 @@
+/* ------------------------------------------------------------ *\ 
+	Posts
+\* ------------------------------------------------------------ */
+
+	/*
+		- Single
+	*/
+
+.post-single h1 { font-weight: 400; letter-spacing: 2px; }
+.post-single h4 { font-family: $font-droid-serif; font-weight: 400; font-style: italic; color: $color-brown; }
+.post-single ul { list-style: none; padding-bottom: 40px; }
+.post-single ul li { position: relative; padding-left: 14px; position: relative; }
+.post-single ul li:before { content: ' '; position: absolute; left: 0; top: 11px; width: 5px; height: 5px; border-radius: 50%; background-color: #565a56; }
+.post-single p a:not(.link-icon):not(.btn) { text-decoration: underline; color: #565a56; }
+.post-single p a:hover { text-decoration: none; }
+.post-single .cols > ul { padding: 0; }
+.post-single .cols > ul > li { padding-left: 15px; }
+.post-single .cols > ul > li:before { display: none; }
+.post-single > .cols > ul { margin: -40px; }
+.post-single > .cols > ul > li { padding: 40px; }
+.post-single .slider-gallery-secondary { margin-bottom: 55px; }
+
+$breakpoint-tablet-portrait {
+		/*
+			- Single
+		*/
+
+	.post-single > .cols > ul { margin: -15px;  }
+	.post-single > .cols > ul > li { padding: 15px; }
+}
+
+$breakpoint-mobile {
+
+		/*
+			- Base
+		*/
+
+	.post .alignleft,
+	.post .alignright { float: none; margin: 0 0 20px 0; }
+}

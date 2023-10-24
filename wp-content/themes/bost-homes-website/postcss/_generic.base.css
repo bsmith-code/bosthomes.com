@@ -1,0 +1,63 @@
+/* ------------------------------------------------------------ *\
+	Base
+\* ------------------------------------------------------------ */
+
+body { min-width: 320px; background: #fff; font-family: $font-open-sans; font-size: $font-size-base; line-height: $line-height-base; color: $color-gray; }
+
+a { color: $color-blue; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+a[href^="tel"] { text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin-bottom: calc($(line-height-base)em / 2); }
+
+h1 { font-size: 32px; line-height: 1.11; }
+h2 { font-size: 28px; line-height: 1.13; }
+h3 { font-size: 25px; line-height: 1.28; }
+h4 { font-size: 28px; line-height: 1.14; }
+h5 { font-size: 17px; line-height: 1.45; }
+h6 { font-size: 14px; line-height: 1.33; }
+
+p,
+ul,
+ol,
+dl,
+hr,
+table,
+blockquote { margin-bottom: $(line-height-base)em; }
+
+h1[class],
+h2[class],
+h3[class],
+h4[class],
+h5[class],
+h6[class],
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child,
+ul:last-child,
+ol:last-child,
+dl:last-child,
+table:last-child,
+blockquote:last-child { margin-bottom: 0; }
+
+$breakpoint-tablet-landscape2 {
+	
+	body { font-size: 14px; }
+
+	h1 { font-size: 27px; line-height: 1.11; }
+	h2 { font-size: 23px; line-height: 1.13; }
+	h3 { font-size: 20px; line-height: 1.28; }
+	h4 { font-size: 19px; line-height: 1.14; }
+	h5 { font-size: 13px; line-height: 1.45; }
+	h6 { font-size: 10px; line-height: 1.33; }	
+}

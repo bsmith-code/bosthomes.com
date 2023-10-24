@@ -1,0 +1,66 @@
+/* ------------------------------------------------------------ *\
+	Widgets
+\* ------------------------------------------------------------ */
+
+	/*
+		- Base
+	*/
+
+.widgets { list-style: none outside none; }
+
+.widget { margin-bottom: 15px; }
+.widget ul { list-style: none outside none; margin: 0; }
+.widget li { padding: 5px 0; }
+
+.widget-title { padding-bottom: 5px; border-bottom: 1px solid #000; margin-bottom: 12px; }
+
+.widget_categories .screen-reader-text { display: none; }
+.widget_categories .post-form { width: 100%; padding: 5px; }
+
+.widget_calendar table { width: 100%; border-spacing: 0; border-collapse: collapse; text-align: center; }
+.widget_calendar td,
+.widget_calendar th { padding: 5px; border: 1px solid #000; }
+.widget_calendar caption { padding: 12px; font-weight: bold; }
+.widget_calendar tfoot { font-weight: bold; }
+
+.widget_rss .rsswidget { vertical-align: middle; }
+.widget_rss .rsswidget img { float: left; margin: 5px 8px 0 0; }
+
+	/*
+		- Sidebar
+	*/
+
+.widgets-sidebar { list-style: none; }
+.widgets-sidebar .widget { margin-bottom: 50px; }
+.widgets-sidebar .widget:last-child { margin-bottom: 0; }
+.widgets-sidebar .widget > ul { list-style: none; text-align: center; }
+.widgets-sidebar .widget > ul a { color: #c2bcaf; text-decoration: underline; }
+.widgets-sidebar .widget > ul a:hover { text-decoration: none; }
+.widgets-sidebar .widget > ul li { margin-bottom: 6px; }
+.widgets-sidebar .widget > ul li:last-child { margin-bottom: 0; }
+
+	/*
+		- Inner
+	*/
+
+.widgets-inner { width: 100%; }
+.widgets-inner > ul { list-style: none; }
+.widgets-inner > ul > li { padding-bottom: 20px; width: 100%; }
+.widgets-inner > ul > li:last-child { padding-bottom: 0; }
+.widgets-inner h4.widget-title { text-transform: uppercase; font-weight: 600; font-size: 20px; border: 0; text-align: left; padding-bottom: 20px; }
+.widgets-inner .widget-text { text-align: left; padding-left: 22px; padding-right: 22px; font-size: 18px; line-height: 1.45; }
+.widgets-inner .widget-text p { margin: 0; }
+
+	/*
+		- Archive
+	*/
+
+.widget_archive ul,
+.widget_categories ul { max-height: 320px; position: relative; overflow: hidden; }
+
+	/*
+		- Body Classes
+	*/
+
+body.loaded .widget_archive ul,
+body.loaded .widget_categories ul { max-height: 9999px; }

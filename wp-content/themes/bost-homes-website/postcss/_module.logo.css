@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------ *\ 
+	Logos
+\* ------------------------------------------------------------ */
+
+	/*
+		- Base
+	*/
+
+.logo { background: url(images/sprite.png) no-repeat -5px -4px; display: inline-block; vertical-align: top;  font-size: 0; line-height: 0; text-indent: -4004px; width: 143px; height: 58px; }
+.logo {
+	-webkit-transition: opacity 0.4s;
+			transition: opacity 0.4s;
+}
+.logo:hover { text-decoration: none; opacity: 0.75; }
+
+/* ------------------------------------------------------------ *\ 
+	Responsive
+\* ------------------------------------------------------------ */
+
+$retina {
+	.logo { background-image: url(images/sprite@2x.png); background-size: 350px 700px; }
+}
+
+$breakpoint-mobile {
+	.logo { width: 123px; height: 49px; background-size: 300px 600px; background-position: -4px -3px; }
+}

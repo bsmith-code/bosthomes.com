@@ -1,0 +1,700 @@
+[10-Sep-2017 01:24:38 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[11-Sep-2017 01:25:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[12-Sep-2017 01:20:59 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[13-Sep-2017 01:20:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[14-Sep-2017 01:26:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[15-Sep-2017 01:22:37 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[16-Sep-2017 01:21:02 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[17-Sep-2017 01:24:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[18-Sep-2017 01:21:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[19-Sep-2017 01:01:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[20-Sep-2017 00:44:23 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[21-Sep-2017 00:46:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[22-Sep-2017 00:38:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php on line 2
+[22-Sep-2017 00:55:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[23-Sep-2017 00:47:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[24-Sep-2017 00:48:05 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[25-Sep-2017 00:53:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[26-Sep-2017 00:48:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[29-Sep-2017 00:57:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[30-Sep-2017 06:32:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php on line 2
+[02-Oct-2017 00:53:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[04-Oct-2017 00:39:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[06-Oct-2017 00:32:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[09-Oct-2017 04:40:17 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php on line 2
+[10-Oct-2017 00:32:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[11-Oct-2017 20:58:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php on line 2
+[13-Oct-2017 08:14:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[13-Oct-2017 08:31:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php on line 2
+[14-Oct-2017 00:31:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[15-Oct-2017 19:35:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[21-Oct-2017 00:45:37 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[22-Oct-2017 00:49:12 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[24-Oct-2017 00:45:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php on line 2
+[25-Oct-2017 00:48:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[29-Oct-2017 00:38:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[30-Oct-2017 00:29:07 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[02-Nov-2017 00:54:05 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[04-Nov-2017 00:54:04 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[05-Nov-2017 00:42:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[06-Nov-2017 00:52:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[07-Nov-2017 00:52:58 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[08-Nov-2017 00:52:47 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[09-Nov-2017 00:50:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[10-Nov-2017 00:53:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[11-Nov-2017 00:52:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[12-Nov-2017 00:52:23 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[13-Nov-2017 00:52:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[14-Nov-2017 00:58:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[15-Nov-2017 00:57:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[16-Nov-2017 00:55:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[17-Nov-2017 00:55:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[18-Nov-2017 00:57:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[19-Nov-2017 00:57:06 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[20-Nov-2017 00:58:23 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[21-Nov-2017 00:59:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[22-Nov-2017 00:58:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[23-Nov-2017 00:59:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[24-Nov-2017 00:58:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[25-Nov-2017 01:01:17 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[26-Nov-2017 01:00:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[27-Nov-2017 01:00:06 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[28-Nov-2017 01:02:13 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[29-Nov-2017 01:00:48 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[30-Nov-2017 01:17:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[01-Dec-2017 01:10:18 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[02-Dec-2017 01:06:16 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[03-Dec-2017 01:04:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[04-Dec-2017 01:03:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[05-Dec-2017 01:03:58 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[06-Dec-2017 00:56:16 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[07-Dec-2017 00:56:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[08-Dec-2017 00:54:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[09-Dec-2017 00:56:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[10-Dec-2017 00:59:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[11-Dec-2017 00:59:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[12-Dec-2017 00:59:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[13-Dec-2017 00:59:12 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[14-Dec-2017 00:59:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[15-Dec-2017 00:57:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[16-Dec-2017 01:01:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[17-Dec-2017 00:58:59 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[18-Dec-2017 00:56:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[19-Dec-2017 00:59:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[20-Dec-2017 01:00:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[21-Dec-2017 01:09:10 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[23-Dec-2017 01:04:16 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[25-Dec-2017 01:03:00 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[26-Dec-2017 01:03:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[27-Dec-2017 01:05:58 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[28-Dec-2017 01:09:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[29-Dec-2017 01:11:24 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[30-Dec-2017 01:07:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[31-Dec-2017 00:59:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[01-Jan-2018 01:03:23 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[02-Jan-2018 01:03:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[03-Jan-2018 01:05:44 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[04-Jan-2018 01:07:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[05-Jan-2018 01:08:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[06-Jan-2018 01:07:10 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[07-Jan-2018 01:23:56 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[08-Jan-2018 01:17:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[09-Jan-2018 01:25:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[10-Jan-2018 01:17:17 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[11-Jan-2018 01:18:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[13-Jan-2018 01:26:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[14-Jan-2018 01:15:23 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[15-Jan-2018 01:14:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[16-Jan-2018 01:08:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[17-Jan-2018 01:09:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[18-Jan-2018 01:18:21 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[19-Jan-2018 01:13:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[20-Jan-2018 01:07:06 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[21-Jan-2018 01:10:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[22-Jan-2018 01:08:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[23-Jan-2018 01:09:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[24-Jan-2018 01:07:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[25-Jan-2018 01:10:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[26-Jan-2018 01:09:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[27-Jan-2018 01:07:20 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[28-Jan-2018 01:11:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[29-Jan-2018 01:05:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[30-Jan-2018 01:08:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[31-Jan-2018 01:06:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[01-Feb-2018 01:08:37 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[02-Feb-2018 01:11:37 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[03-Feb-2018 01:10:30 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[04-Feb-2018 00:35:51 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/footer.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/footer.php on line 1
+[04-Feb-2018 00:35:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/footer.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/footer.php on line 1
+[04-Feb-2018 01:09:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[05-Feb-2018 01:22:21 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[06-Feb-2018 01:05:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[16-Feb-2018 01:35:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[18-Feb-2018 01:28:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[20-Feb-2018 01:59:02 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[21-Feb-2018 02:19:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[22-Feb-2018 02:14:12 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[23-Feb-2018 01:50:33 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[25-Feb-2018 01:29:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[02-Mar-2018 01:59:56 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[03-Mar-2018 02:08:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[05-Mar-2018 03:04:30 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[06-Mar-2018 01:57:56 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[09-Mar-2018 02:56:05 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[10-Mar-2018 01:38:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[18-Mar-2018 01:55:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[19-Mar-2018 01:24:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[19-Mar-2018 03:06:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php on line 2
+[20-Mar-2018 17:13:31 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/header.php on line 2
+[28-Mar-2018 01:30:39 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[29-Mar-2018 02:01:54 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[31-Mar-2018 01:52:38 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[01-Apr-2018 02:01:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[03-Apr-2018 01:52:07 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[18-Apr-2018 01:50:58 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[22-Apr-2018 03:08:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[26-Apr-2018 03:17:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[27-Apr-2018 02:39:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[04-May-2018 03:33:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[05-May-2018 03:18:24 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[06-May-2018 03:22:44 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[07-May-2018 03:06:19 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[08-May-2018 03:31:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[11-May-2018 01:38:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[12-May-2018 03:18:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[14-May-2018 01:44:10 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[15-May-2018 01:32:33 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[17-May-2018 02:23:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[24-May-2018 01:32:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[27-May-2018 02:15:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[28-May-2018 02:12:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[29-May-2018 01:46:43 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[30-May-2018 01:45:20 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[31-May-2018 01:51:56 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[01-Jun-2018 02:05:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2
+[02-Jun-2018 01:53:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/bostcust/public_html/wp-content/themes/bost-homes-website/index.php on line 2

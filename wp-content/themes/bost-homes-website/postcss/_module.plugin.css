@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------ *\ 
+	Plugins
+\* ------------------------------------------------------------ */
+
+	/*
+		- Magnific Popup
+	*/
+
+.mfp-content .inner-box,
+.mfp-content .inner-image { opacity: 1 !important; }
+.mfp-content .inner-box,
+.mfp-content .inner-image {
+	-webkit-transform: translate(0px,0px) scale(1);
+			transform: translate(0px,0px) scale(1);
+}
