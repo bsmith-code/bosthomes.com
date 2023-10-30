@@ -1,1 +1,6 @@
-.DS_STORE
+*.DS_STORE
+uploads
+*.sql
+.htaccess
+logs
+mu-plugins
