@@ -22,6 +22,8 @@
 	III. Modules
 \* ------------------------------------------------------------ */
 
+@import '_module.agency.css';
+
 @import '_module.article.css';
 
 @import '_module.btn.css';
