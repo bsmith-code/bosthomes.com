@@ -49,7 +49,7 @@
 							if (classes !== undefined) {
 
 								$select.next().find('li').eq(idx).addClass(classes);
-								
+
 							};
 
 						});
@@ -83,7 +83,7 @@
     		gallery.show(index);
     		gallery.addElement('exit').appendChild('container','exit');
     		gallery.addElement('categories').appendChild('container','categories');
-    		this.bind("loadstart", function(e) { 
+    		this.bind("loadstart", function(e) {
     			index = e.index;
     			galleriaOptions(index, galleryOptions, gallery);
     		});
@@ -147,7 +147,7 @@
 		        swipe: true,
 		        showImagenav: true,
 				extend:function() {
-					var gallery = this; 
+					var gallery = this;
 	    			gallery.attachKeyboard({
 			            left: gallery.prev,
 			            right: gallery.next,
@@ -220,7 +220,7 @@
 				$(this).addClass($classes.Hover);
 			}
 		});
-		
+
 		$('article').find('img').each(function () {
 			if ( !$(this).parents().hasClass('inner-group') ) {
 				$(this).wrap('<div class="inner-image"><div class="inner-group"></div></div>')
@@ -286,7 +286,7 @@
 
 		$doc.on('click', '.btn-tags a', function(event){
 			event.preventDefault();
-			
+
 			$(this).parents('.owl-item').toggleClass('hide-tags');
 		});
 
@@ -309,12 +309,12 @@
 							$body.slider();
 
 							setTimeout(function() {
-								$body.slider();		
+								$body.slider();
 							}, 1550);
 						},
 						change: function(){
 							setTimeout(function() {
-								$body.slider();		
+								$body.slider();
 							}, 1550);
 						}
 					}
@@ -347,7 +347,7 @@
 							}
 						}
 					});
-				});				
+				});
 			}
 		});
 
@@ -361,7 +361,7 @@
 
 		$('.slider-gallery-secondary img').fullscreener({
 			parentClass : $classes.FsrHolder
-		});	
+		});
 
 		$('.inner-image-ribbon > .inner-group > a').magnificPopup({
 			removalDelay: 300,
@@ -412,7 +412,7 @@
 				patterns: {
 					youtube: {
 						index: 'youtube.com/',
-						id: 'v=', 
+						id: 'v=',
 						src: '//www.youtube.com/embed/%id%?autoplay=1' // URL that will be set as a source for iframe.
 					},
 					vimeo: {
@@ -460,25 +460,25 @@
 
 	$win.load(function(){
 		$('body').addClass('loaded');
-		
+
 		$body.slider();
-		
+
 		$doc.on('gform_post_render', function(data){
 			$body.gfromCols({
 				Container : '.form-inner',
 				Class : 'separator'
 			});
 		});
-		
+
 		setTimeout(function() {
-			$body.sectionOffsets();			
+			$body.sectionOffsets();
 			$body.currentSection();
 		}, 200);
 	});
 
 	$win.scroll(function(){
 		_scroll = $win.scrollTop();
-		
+
 		$body.toggleClass($classes.ShowFixedHeader, (_scroll >= 10));
 
 		$body.currentSection();
@@ -494,15 +494,15 @@
 	$.fn.fullscreener = function(options){
 		$(this).each(function(){
 			var $this = $(this);
-			
+
 			$this.parent().addClass(options.parentClass).attr('style', 'background-image: url(' + $this.attr('src') + ');');
-		});		
+		});
 	}
 
 	$.fn.viewport = function(){
 		var _deviceWidth = $win.width();
 
-		_isDesktop = (_deviceWidth > 1024) ? true : false; 
+		_isDesktop = (_deviceWidth > 1024) ? true : false;
 		_isMobile  = (_deviceWidth <= 767) ? true : false;
 		_isTablet  = (_deviceWidth <= 1024 && _deviceWidth >= 768) ? true : false;
 	}
@@ -662,7 +662,7 @@
 					onTouch : true
 				}
 			});
-		}		
+		}
 
 		var $sliderGallerySecondary = $('.slider-gallery-secondary');
 		if($sliderGallerySecondary.length){
@@ -688,7 +688,7 @@
 
 	$.fn.googleMap = function(settings){
 		$(this).each(function(){
-			
+
 			var $this = $(this);
 			var map, marker, myOptions;
 			var _address = $this.data('location').split(',');
@@ -719,7 +719,7 @@
 
 	$.fn.googleMapPrimary = function(settings){
 		$(this).each(function(){
-			
+
 			var $this = $(this);
 			var map, marker, myOptions;
 			var _address = $this.data('location').split(',');
@@ -755,21 +755,21 @@
 		$('.wrapper .article-primary').each(function(i){
 			var _offset = parseInt($(this).offset().top - ($win.height()), 10);
 				_offset = (_offset < 0) ? 0 : _offset
-				
+
 			offsetArr[i] = _offset;
 		});
 
 		$('.inner-box').each(function(i){
 			var _offset = parseInt($(this).offset().top - ($win.height() / 1.3), 10);
 				_offset = (_offset < 0) ? 0 : _offset
-				
+
 			offsetInnerBox[i] = _offset;
 		});
 
 		$('.inner-image').each(function(i){
 			var _offset = parseInt($(this).offset().top - ($win.height() / 1.7), 10);
 				_offset = (_offset < 0) ? 0 : _offset
-				
+
 			offsetInnerImage[i] = _offset;
 		});
 	}
@@ -781,13 +781,13 @@
 		var _allSections = offsetArr.length - 1;
 		var _currentSection = -1;
 		var _container = $('.wrapper  .article-primary');
-		
+
 		if(_allSections >= 0){
 			for (var i=0; i<=_allSections; i++) {
 				var _this = offsetArr[i];
 				var _next = offsetArr[i+1];
 					_next = (_next == undefined) ? offsetArr[_allSections] + 9999 : _next;
-				
+
 				if(_scroll >= _this && _scroll <= _next){
 					_currentSection = i;
 				}
@@ -796,7 +796,7 @@
 
 			if(_currentSection >= 0){
 				_container.eq(_currentSection).addClass($classes.Active);
-				
+
 				for (var i=0; i<=_currentSection; i++) {
 					if(!_container.eq(i).hasClass($classes.Active)){
 						_container.eq(i).addClass($classes.Active);
@@ -811,13 +811,13 @@
 		var _allSectionsBox = offsetInnerBox.length - 1;
 		var _currentSectionBox = -1;
 		var _container = $('.inner-box');
-		
+
 		if(_allSectionsBox >= 0){
 			for (var i=0; i<=_allSectionsBox; i++) {
 				var _this = offsetInnerBox[i];
 				var _next = offsetInnerBox[i+1];
 					_next = (_next == undefined) ? offsetInnerBox[_allSectionsBox] + 9999 : _next;
-				
+
 				if(_scroll >= _this && _scroll <= _next){
 					_currentSectionBox = i;
 				}
@@ -825,7 +825,7 @@
 
 			if(_currentSectionBox >= 0){
 				_container.eq(_currentSectionBox).addClass($classes.Active);
-				
+
 				for (var i=0; i<=_currentSectionBox; i++) {
 					if(!_container.eq(i).hasClass($classes.Active)){
 						_container.eq(i).addClass($classes.Active);
@@ -840,13 +840,13 @@
 		var _allSectionsImage = offsetInnerImage.length - 1;
 		var _currentSectionImage = -1;
 		var _container = $('.inner-image');
-		
-		if(_allSectionsImage >= 0){		
+
+		if(_allSectionsImage >= 0){
 			for (var i=0; i<=_allSectionsImage; i++) {
 				var _this = offsetInnerImage[i];
 				var _next = offsetInnerImage[i+1];
 					_next = (_next == undefined) ? offsetInnerImage[_allSectionsImage] + 9999 : _next;
-				
+
 				if(_scroll >= _this && _scroll <= _next){
 					_currentSectionImage = i;
 				}
@@ -854,7 +854,7 @@
 
 			if(_currentSectionImage >= 0){
 				_container.eq(_currentSectionImage).addClass($classes.Active);
-				
+
 				for (var i=0; i<=_currentSectionImage; i++) {
 					if(!_container.eq(i).hasClass($classes.Active)){
 						_container.eq(i).addClass($classes.Active);
@@ -876,12 +876,12 @@
 				$('.' + settings.Class).eq(i).each(function(){
 					secondList  = $('<ul />');
 					flag = true;
-					
+
 					while(flag){
 						var $this = $(this);
 
 						if($this.next().is('.gfield') && !$this.next().hasClass(settings.Class)){
-							
+
 						}else{
 							flag = false;
 						}
@@ -892,13 +892,13 @@
 					$(settings.Container).find('.gform_fields').after(secondList);
 				});
 			}
-		}		
+		}
 	}
 })(jQuery, window, document);
 
 jQuery(document).ready(function($) {
 
-// owl carousel 
+// owl carousel
 	$('#custom_slide').owlCarousel({
 		loop:true,
 		margin:0,
@@ -919,11 +919,11 @@ jQuery(document).ready(function($) {
 
 			1000:{
 				items:1,
-				
+
 			}
 		}
 	});
-	
+
 	$('#custom_intro_slide').owlCarousel({
 		loop:false,
 		margin:30,
@@ -945,7 +945,7 @@ jQuery(document).ready(function($) {
 
 			1000:{
 				items:4,
-				
+
 			}
 		}
 	});

@@ -3,4 +3,4 @@ uploads
 *.sql
 .htaccess
 logs
-mu-plugins
+node_modules/

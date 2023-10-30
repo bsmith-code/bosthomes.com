@@ -1,8 +1,3 @@
-# BEGIN [SEO_REDIRECTION]
- ErrorDocument 404 /index.php?error=404
-# END [SEO_REDIRECTION]
-# BEGIN WordPress
-
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 RewriteBase /
