@@ -90,33 +90,3 @@ a.return {
     margin:0 15px;
 }
 
-@media screen and (max-width: 915px) {
-    .galleria-categories, .galleria-counter, .galleria-thumbnails-container {
-        display: none!important;
-    }
-    .galleria-theme-classic .galleria-stage {
-        bottom: 10px!important;
-    }
-    .galleria-theme-classic img {
-        width: 100%!important;
-        height: 100%!important;
-        left: 0!important;
-        top: 0!important;
-        object-fit: contain;
-    }
-    .galleria-exit {
-        opacity: 1!important;
-        padding: 10px 15px!important;
-        background: rgba(0,0,0,0.8)!important;
-        font-size: 21px!important;
-        border-radius: 50%!important;
-    }
-    .galleria-theme-classic .galleria-image-nav-left, .galleria-theme-classic .galleria-image-nav-right {
-        opacity: 1!important;
-    }
-    .galleria-theme-classic .galleria-image-nav {
-        height: 124px!important;
-        margin-top: 0!important;
-        transform: translateY(-50%)!important;
-    }
-}
