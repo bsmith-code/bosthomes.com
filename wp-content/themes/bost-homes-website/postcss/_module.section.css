@@ -1,4 +1,4 @@
-/* ------------------------------------------------------------ *\ 
+/* ------------------------------------------------------------ *\
 	Sections
 \* ------------------------------------------------------------ */
 
@@ -9,7 +9,7 @@
 .section { width: 100%; position: relative; padding: 75px 0; }
 .section > * { position: relative; z-index: 100; }
 .section .section-head { width: 100%; text-align: center; padding-bottom: 60px; }
-.section .section-head h2 { color: #565a56; font-family: $font-satisfy; font-weight: 400; font-size: 40px; }
+.section .section-head h2 { color: #565a56; font-family: $font-sackers-heavy; font-weight: 400; font-size: 40px; }
 .section .section-head h2 strong { display: inline-block; vertical-align: top; font-weight: 400; padding: 0 120px; position: relative; }
 .section .section-head h2 strong:before,
 .section .section-head h2 strong:after { content: ' '; position: absolute; top: 50%; background: url(images/sprite.png) no-repeat 0 0; width: 90px; height: 36px; }
@@ -139,18 +139,18 @@
 
 .section-map-primary { width: 100%; height: 553px; background-color: #e9efd5; border-top: 3px solid #94958f; }
 
-/* ------------------------------------------------------------ *\ 
+/* ------------------------------------------------------------ *\
 	Responsive
 \* ------------------------------------------------------------ */
 
 $breakpoint-tablet-portrait {
-		
+
 		/*
 			- Base
 		*/
-	
+
 	.section .section-body .sidebar { width: 280px; }
-	.section .section-body .content.alignleft, 
+	.section .section-body .content.alignleft,
 	.section .section-body .content.alignright { width: calc(100% - 350px); }
 
 		/*
@@ -160,7 +160,7 @@ $breakpoint-tablet-portrait {
 	.section-pattern-primary,
 	.section-pattern-secondary,
 	.section-pattern-tertiary { background-attachment: scroll; }
-		
+
 		/*
 			- Map Primary
 		*/
@@ -186,7 +186,7 @@ $breakpoint-mobile {
 	.section .section-head h2 strong:before { left: 50%; top: 0; }
 	.section .section-head h2 strong:after { right: 50%; top: 0; }
 	.section .section-body .post blockquote { padding: 0; font-size: 14px; }
-	.section .section-body .content.alignleft, 
+	.section .section-body .content.alignleft,
 	.section .section-body .content.alignright { float: none; width: auto; }
 	.section .section-body .content.alignleft + .sidebar,
 	.section .section-body .content.alignright + .sidebar { width: auto; padding-top: 30px; float: none; margin: 0 auto; }

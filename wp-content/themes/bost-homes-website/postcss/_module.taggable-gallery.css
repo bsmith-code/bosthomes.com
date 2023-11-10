@@ -8,7 +8,7 @@
 
 body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
 
-.gallery-shortcode h3 { color: #565a56; font-family: $font-satisfy; font-weight: 400; font-size: 40px; text-transform: none; text-align: center; }
+.gallery-shortcode h3 { color: #565a56; font-family: $font-sackers-heavy; font-weight: 400; font-size: 40px; text-transform: none; text-align: center; }
 .gallery-shortcode h3 span { display: inline-block; vertical-align: top; font-weight: 400; padding: 0 120px; position: relative; }
 .gallery-shortcode h3 span:before,
 .gallery-shortcode h3 span:after { content: ' '; position: absolute; top: 50%; background: url(images/sprite.png) no-repeat 0 0; width: 90px; height: 36px; opacity: 0.25; }
@@ -33,7 +33,7 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
 .gallery-container .owl-carousel .owl-item img { width: auto;  max-height: 960px; left: 50%; transform: translateX(-50%); }
 .gallery-container .owl-carousel .owl-stage-outer { max-height: 960px; }
 
-/* ------------------------------------------------------------ *\ 
+/* ------------------------------------------------------------ *\
   Custom Select
 \* ------------------------------------------------------------ */
 
@@ -45,7 +45,7 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7e7e7', endColorstr='#e7e7e7',GradientType=0 ); }
 .select-holder a { display: block; color: #6e6355; font-size: 14px; line-height: 28px; padding: 0 0 0 16px; }
 .select-holder a:hover { text-decoration: none; }
-.select-holder a.select-toggle { background: url(images/select-arrow.png); width: 23px; height: 23px; right: 3px; top: 3px; position: absolute; 
+.select-holder a.select-toggle { background: url(images/select-arrow.png); width: 23px; height: 23px; right: 3px; top: 3px; position: absolute;
 }
 .select-holder ul.select-options { list-style: none; background-color: #fff; position: absolute; left: 0; right: 0; top: 100%; margin-top: 2px; }
 .select-holder .current-menu-item a,
@@ -66,9 +66,9 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
 
 .owl-nav div,
 .case-study-slider .owl-dots div {
-    -webkit-transition: background .3s; 
-         -o-transition: background .3s; 
-            transition: background .3s; 
+    -webkit-transition: background .3s;
+         -o-transition: background .3s;
+            transition: background .3s;
 }
 
 .main { position: relative; z-index: 7; }
@@ -86,9 +86,9 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
 .list-slider strong { display: block; text-align: center; font-size: 14px; font-weight: 700; }
 
 .list-slider .owl-nav { height: 22px;  top: 50%;
-   -webkit-transform: translateY(-50%); 
-       -ms-transform: translateY(-50%); 
-        -o-transform: translateY(-50%); 
+   -webkit-transform: translateY(-50%);
+       -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
            transform: translateY(-50%); position: absolute; left: 0; width: 100%; margin-top: -15px; }
 .list-slider .owl-nav div { width: 22px; height: 22px; font-size: 17px; text-indent: 0; line-height: 22px; color: #fff; background: rgba(199,193,172,1); }
 .list-slider .owl-nav div:hover { background: rgba(143,136,119,1);}
@@ -131,7 +131,7 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
 
 .gallery-filters h3 { margin: 0px auto 25px; }
 .gallery-filters .select2 { float: right; }
-.gallery-filters .select2-selection { border-color: #e1e1e1; border-radius: 11px; font-size: 14px; font-family: Arial, sans-serif; color: #6e6355; padding-left: 6px; 
+.gallery-filters .select2-selection { border-color: #e1e1e1; border-radius: 11px; font-size: 14px; font-family: Arial, sans-serif; color: #6e6355; padding-left: 6px;
     background: #e7e7e7;
     background: -moz-linear-gradient(top,  #e7e7e7 0%, #f4f4f4 12%, #fafafa 20%, #ffffff 36%, #ffffff 64%, #fcfcfc 76%, #f4f4f4 88%, #e7e7e7 100%);
     background: -webkit-linear-gradient(top,  #e7e7e7 0%,#f4f4f4 12%,#fafafa 20%,#ffffff 36%,#ffffff 64%,#fcfcfc 76%,#f4f4f4 88%,#e7e7e7 100%);
@@ -166,11 +166,11 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
 .gallery-category .image-data { padding: 17px 0 0 15px; }
 .gallery-category .image-data h4 { font-family: 'Montserrat'; font-size: 14px; font-weight: 700; }
 .gallery-category .wrap { position: relative; background: #fff; padding: 10px;  z-index: 10; box-shadow: 0 -2px 5px rgba(109,109,109,0.5); }
-.gallery-category .owl-nav { position: absolute; width: 100%; top: 50%; left: 0; z-index: 999; height: 58px; 
-  -webkit-transform: translateY(-50%); 
-      -ms-transform: translateY(-50%); 
-       -o-transform: translateY(-50%); 
-          transform: translateY(-50%); 
+.gallery-category .owl-nav { position: absolute; width: 100%; top: 50%; left: 0; z-index: 999; height: 58px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 #email { display: none; }
@@ -190,7 +190,7 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
       transform: rotate(3deg);
 }
 .images-slider img { display: block; height: auto; }
-.images-slider .owl-nav { height: 22px; position: absolute; top: 50%; width: 100%; left: 0; z-index: 10; 
+.images-slider .owl-nav { height: 22px; position: absolute; top: 50%; width: 100%; left: 0; z-index: 10;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
          -o-transform: translateY(-50%);
@@ -206,7 +206,7 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
 .images-slider .owl-stage-outer { z-index: 9; }
 .owl-stage-outer { z-index: 100; position: relative; }
 
-@media(max-width: 1023px){ 
+@media(max-width: 1023px){
 	.search-form,
   .dropdown-filter { float: none; max-width: 306px; width: 100%; margin: 0 auto; }
 
@@ -237,5 +237,5 @@ $breakpoint-mobile {
         transform: none;
   }
   .gallery-shortcode h3 span:before { left: 50%; top: 0; }
-  .gallery-shortcode h3 span:after { right: 50%; top: 0; }  
+  .gallery-shortcode h3 span:after { right: 50%; top: 0; }
 }

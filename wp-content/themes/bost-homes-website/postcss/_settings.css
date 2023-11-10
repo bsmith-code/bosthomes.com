@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Sackers Gothic Std";
+  src: url('../assets/fonts/SackersGothicStdHeavy.otf') format('opentype');
+}
+
 $font-size-base:					16px;
 $line-height-base:					1.56;
 
@@ -14,6 +19,7 @@ $font-montserrat:					'Montserrat', 'Helvetica', sans-serif;
 $font-josefin-sans:					'Josefin Sans', 'Helvetica', serif;
 $font-josefin-slab:					'Josefin Slab', 'Helvetica', serif;
 $font-satisfy:						'Satisfy', cursive;
+$font-sackers-heavy:					'Sackers Gothic Std', 'Helvetica', sans-serif;
 
 $color-brown: 						#6b3615;
 $color-gray: 						#565a56;

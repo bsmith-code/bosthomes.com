@@ -1,6 +1,6 @@
-*.DS_STORE
 uploads
 *.sql
 .htaccess
 logs
 node_modules/
+.DS_Store
