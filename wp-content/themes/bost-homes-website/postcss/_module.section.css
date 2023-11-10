@@ -11,7 +11,7 @@
 .section .section-head { width: 100%; text-align: center; padding-bottom: 60px; }
 .section .section-head h2 { color: #565a56; font-family: $font-sackers-heavy; font-weight: 400; font-size: 40px; }
 .section .section-head h2 strong { display: inline-block; vertical-align: top; font-weight: 400; padding: 0 120px; position: relative; }
-.section .section-head h2 strong:before,
+/* .section .section-head h2 strong:before,
 .section .section-head h2 strong:after { content: ' '; position: absolute; top: 50%; background: url(images/sprite.png) no-repeat 0 0; width: 90px; height: 36px; }
 .section .section-head h2 strong:before,
 .section .section-head h2 strong:after {
@@ -19,7 +19,7 @@
 			transform: translate(0,-50%);
 }
 .section .section-head h2 strong:before { left: 0; background-position: -255px -92px; }
-.section .section-head h2 strong:after { right: 0; background-position: -255px -137px; }
+.section .section-head h2 strong:after { right: 0; background-position: -255px -137px; } */
 .section .section-body { width: 100%; }
 .section .section-body:after { content: ' '; display: table; clear: both; }
 .section .section-body .post p { margin-bottom: 25px; }

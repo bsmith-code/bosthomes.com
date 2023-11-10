@@ -10,7 +10,7 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
 
 .gallery-shortcode h3 { color: #565a56; font-family: $font-sackers-heavy; font-weight: 400; font-size: 40px; text-transform: none; text-align: center; }
 .gallery-shortcode h3 span { display: inline-block; vertical-align: top; font-weight: 400; padding: 0 120px; position: relative; }
-.gallery-shortcode h3 span:before,
+/* .gallery-shortcode h3 span:before,
 .gallery-shortcode h3 span:after { content: ' '; position: absolute; top: 50%; background: url(images/sprite.png) no-repeat 0 0; width: 90px; height: 36px; opacity: 0.25; }
 .gallery-shortcode h3 span:before,
 .gallery-shortcode h3 span:after {
@@ -18,7 +18,7 @@ body.loaded .gallery-wrap .gallery { opacity: 1; visibility: visible; }
       transform: translate(0,-50%);
 }
 .gallery-shortcode h3 span:before { left: 0; background-position: -255px -92px; }
-.gallery-shortcode h3 span:after { right: 0; background-position: -255px -137px; }
+.gallery-shortcode h3 span:after { right: 0; background-position: -255px -137px; } */
 
 .gallery-container .meta-wrap + .meta-wrap { position: absolute; left: 0; right: 0; bottom: 0; background-color: #fff; z-index: 200; color: #6b3918; }
 .gallery-container .meta-wrap + .meta-wrap a { display: block; height: inherit; }

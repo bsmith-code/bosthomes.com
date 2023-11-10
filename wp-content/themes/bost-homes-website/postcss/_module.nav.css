@@ -1,4 +1,4 @@
-/* ------------------------------------------------------------ *\ 
+/* ------------------------------------------------------------ *\
 	Navigations
 \* ------------------------------------------------------------ */
 
@@ -7,7 +7,7 @@
 	*/
 
 .nav ul { list-style: none; font-size: 0; line-height: 0; }
-.nav li { display: inline-block; vertical-align: top; position: relative; font-size: 16px; line-height: 20px; padding: 0 15px 10px 15px; font-family: $font-josefin-sans; font-weight: 400; }
+.nav li { display: inline-block; vertical-align: top; position: relative; font-size: 16px; line-height: 20px; padding: 0 15px 10px 15px; font-family: $font-sackers-heavy; font-weight: 400; }
 .nav a { display: block; color: #fff; }
 .nav li.current-menu-item > a,
 .nav a:hover { text-decoration: none; color: #83aade; }
@@ -28,7 +28,7 @@
 }
 .nav > ul > li > ul {
 	-webkit-transform: scale(0.7) translate(-50%,20px);
-			transform: scale(0.7) translate(-50%,20px);	
+			transform: scale(0.7) translate(-50%,20px);
 			z-index:999;
 }
 .nav ul ul li { display: block; padding: 0; }
@@ -46,7 +46,7 @@
 .nav li:hover > ul { opacity: 1; visibility: visible; }
 .nav > ul > li:hover > ul {
 	-webkit-transform: scale(1) translate(-50%,0px);
-			transform: scale(1) translate(-50%,0px);	
+			transform: scale(1) translate(-50%,0px);
 }
 
 	/*
@@ -60,7 +60,7 @@
 .nav-paging a { display: block; background-color: rgba(255,255,255,0.5); color: #2a668e; font-size: 18px; line-height: 48px; padding: 0 20px; font-weight: 700; }
 .nav-paging a:hover { text-decoration: none; background-color: rgba(255,255,255,1); }
 
-/* ------------------------------------------------------------ *\ 
+/* ------------------------------------------------------------ *\
 	Responsive
 \* ------------------------------------------------------------ */
 
@@ -74,18 +74,18 @@ $breakpoint-tablet-portrait {
 	.nav li:hover > ul { opacity: 0; visibility: hidden; }
 	.nav > ul > li:hover > ul {
 		-webkit-transform: scale(0.7) translate(-50%,20px);
-				transform: scale(0.7) translate(-50%,20px);	
+				transform: scale(0.7) translate(-50%,20px);
 	}
 	.nav li.hover > ul ul,
 	.nav li.hover > ul { opacity: 1; visibility: visible; }
 	.nav > ul > li.hover > ul {
 		-webkit-transform: scale(1) translate(-50%,0px);
-				transform: scale(1) translate(-50%,0px);	
+				transform: scale(1) translate(-50%,0px);
 	}
 }
 
 $breakpoint-tablet-landscape {
-		
+
 		/*
 			- Main
 		*/
@@ -94,7 +94,7 @@ $breakpoint-tablet-landscape {
 }
 
 $breakpoint-mobile {
-		
+
 		/*
 			- Main
 		*/
