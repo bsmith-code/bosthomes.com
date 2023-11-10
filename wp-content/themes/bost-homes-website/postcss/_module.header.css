@@ -1,4 +1,4 @@
-/* ------------------------------------------------------------ *\ 
+/* ------------------------------------------------------------ *\
 	Header
 \* ------------------------------------------------------------ */
 
@@ -10,7 +10,7 @@
 .header:hover { border-bottom-color: #70716f; background-color: rgba(70,75,71,0.85); }
 .header .shell { max-width: none; padding: 0 75px; }
 .header .logo { float: left; }
-.header .nav { float: right; padding: 6px 0 0 0; }
+.header .nav { float: right; padding: 22px 0 0 0; }
 .header + section:not(.section-slider) { padding-top: 170px; }
 
 	/*
@@ -20,12 +20,12 @@
 .home.show-fixed-header .header { border-bottom-color: #70716f; background-color: rgba(70,75,71,0.85); }
 .header { position: fixed; left: 0; right: 0; top: 0; border-bottom-color: #70716f; background-color: rgba(70,75,71,0.85); padding: 10px 0; border-bottom: 3px solid transparent; z-index: 900; transition: border 0.4s, background 0.4s;}
 
-/* ------------------------------------------------------------ *\ 
+/* ------------------------------------------------------------ *\
 	Responsive
 \* ------------------------------------------------------------ */
 
 $breakpoint-tablet-portrait {
-		
+
 		/*
 			- Base
 		*/
@@ -55,9 +55,9 @@ $breakpoint-mobile {
 	}
 	.header .nav li { position: relative; }
 	.header .nav li.hover ul { display: block; }
-	.header .nav > ul > li > ul:after, 
+	.header .nav > ul > li > ul:after,
 	.header .nav > ul > li > ul:before { display: none; }
-	.header .nav li:hover > ul, 
+	.header .nav li:hover > ul,
 	.header .nav li:hover > ul ul { opacity: 1; visibility: visible; }
 
 		/*

@@ -306,7 +306,7 @@ var modules = {
             // Extend
             postcssProcessors.push(postcssExtend);
 
-            // Varialbes
+            // Variables
             postcssProcessors.push(postcssSimpleVars);
 
             // Reduces calcs, where possible
@@ -350,7 +350,7 @@ var modules = {
 
             var css_type = cssmin;
             var css_plugin = true;
-            
+
             if (utils.getEnvVar('css-beautify')) {
 
                 css_type = cssbeautify;
@@ -629,9 +629,9 @@ var modules = {
         }
     }(),
     build       : function() {
-        
+
         var register = function() {
-            
+
         }
 
         return {
