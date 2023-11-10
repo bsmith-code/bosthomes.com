@@ -34,9 +34,7 @@
   font-size: 12px !important;
 }}
 
-.section-pattern-tertiary { background:#157122; }
 .home .header {
-
     border-bottom: 3px solid transparent;
     border-bottom-color: #70716f;
     background-color: rgba(70,75,71,.85);
@@ -62,9 +60,13 @@
 .footer .footer-bar .shell {
     padding: 0px 0 0;
 }
+.section-pattern-primary {
+    background-color: #FFF;
+}
 .section-pattern-secondary {
     background-color: #b1a082;
 }
+.section-pattern-tertiary { background:#157122; }
 .header .nav {
     padding: 22px 0 0;
 }
@@ -86,6 +88,6 @@ height: 45px; line-height: 35px; }
 .slider-intro-2 #custom_intro_slide .owl-stage { margin:auto; }
 
 body {
-    background: #FDF5E6 !important;
+    background: #fff !important;
 
 }

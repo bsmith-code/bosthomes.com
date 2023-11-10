@@ -48,7 +48,7 @@
 		- Pattern Primary
 	*/
 
-.section-pattern-primary { background-position: center center; background-repeat: repeat; background-attachment: fixed; background-image: url(images/pattern-body.png); }
+/* .section-pattern-primary { background-position: center center; background-repeat: repeat; background-attachment: fixed; background-image: url(images/pattern-body.png); } */
 .section-pattern-primary.section-with-border:before { content: ' '; position: absolute; left: 0; right: 0; bottom: 0; height: 0; border-bottom: 3px solid #969189; border-top: 3px solid #74706a; z-index: 10; }
 .section-pattern-primary .section-head { padding-bottom: 70px; }
 .section-pattern-primary .section-head h2 strong:before,
