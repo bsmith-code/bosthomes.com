@@ -1,4 +1,4 @@
-/* ------------------------------------------------------------ *\ 
+/* ------------------------------------------------------------ *\
 	Articles
 \* ------------------------------------------------------------ */
 
@@ -13,7 +13,7 @@
 .article-primary .article-image > img { display: block; max-width: none; max-height: 100%; opacity: 1; }
 .article-primary .article-image > img {
 	-webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
-			transition: opacity 0.4s, transform 0.4s;	
+			transition: opacity 0.4s, transform 0.4s;
 }
 /* .article-primary .article-image > img {
 	-webkit-transform: translate(0,100px) scale(0.7);
@@ -51,6 +51,7 @@
 .article-primary .article-body p { font-size: 18px; line-height: 1.45; color: #565a56; }
 .article-primary-white .article-body p { font-family: $font-josefin-slab; color: #fff; font-size: 20px; font-weight: 600; }
 .article-primary .article-body p a { color: #2a668e; font-weight: 700; }
+.article-primary.article-primary-white .article-body p a { color: #fff; }
 .article-primary .article-image { position: relative; }
 .article-primary .article-image > a { position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 11; }
 
@@ -82,7 +83,7 @@ article .alignright .inner-image { margin-bottom: 0; }
 .article-image .inner-image { margin-bottom: 0; }
 
 
-/* ------------------------------------------------------------ *\ 
+/* ------------------------------------------------------------ *\
 	Responsive
 \* ------------------------------------------------------------ */
 
@@ -100,9 +101,9 @@ $breakpoint-extra-large-desktop {
 $breakpoint-tablet-portrait {
 	.wp-caption { max-width: 100%; }
 }
-	
+
 $breakpoint-mobile {
-	
+
 
 	.inner-image .wp-caption.alignright,
 	.inner-image img.alignright,

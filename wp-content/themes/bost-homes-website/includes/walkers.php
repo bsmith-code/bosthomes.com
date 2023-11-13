@@ -10,12 +10,12 @@ class Crb_Walker_Menu extends Walker_Nav_Menu {
 	 * @param int $current_page Menu item ID.
 	 * @param object $args
 	 */
-	function start_el(&$output, $item, $depth, $args) {
-		global $wp_query;           
+	function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
+		global $wp_query;
 
 		$image = get_post_meta( $item->ID, '_crb_image' );
 
-		
+
 
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
 
