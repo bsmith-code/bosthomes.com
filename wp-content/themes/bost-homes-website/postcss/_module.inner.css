@@ -245,7 +245,7 @@
 .inner-box-small .inner-head { width: 100%; text-align: center; padding-bottom: 25px; }
 .inner-box-small .inner-head h4 { font-weight: 400; text-transform: uppercase; font-size: 20px; line-height: 1.20; }
 .inner-box-small .inner-head h4 strong { display: inline-block; vertical-align: top; padding: 0 74px; position: relative; font-weight: 400; }
-.inner-box-small .inner-head h4 strong:before,
+/* .inner-box-small .inner-head h4 strong:before,
 .inner-box-small .inner-head h4 strong:after { content: ' '; background: url(images/sprite.png) no-repeat 0 0; width: 56px; height: 26px; position: absolute; top: 50%; opacity: 0.50; }
 .inner-box-small .inner-head h4 strong:before,
 .inner-box-small .inner-head h4 strong:after {
@@ -253,7 +253,7 @@
 			transform: translate(0,-50%);
 }
 .inner-box-small .inner-head h4 strong:before { left: 0; background-position: -87px -382px; }
-.inner-box-small .inner-head h4 strong:after { right: 0; background-position: -151px -382px; }
+.inner-box-small .inner-head h4 strong:after { right: 0; background-position: -151px -382px; } */
 .inner-box-small .inner-body { width: 100%; font-size: 15px; line-height: 1.60; }
 .inner-box-small .inner-body blockquote { font-size: 22px; line-height: 1.09; font-family: $font-josefin-slab; font-weight: 600; font-style: italic; }
 .inner-box-small .inner-body h6 { margin: 0; font-size: 15px; line-height: 1.60; }
