@@ -7,16 +7,15 @@ if ( empty( $crb_text ) || empty( $crb_images ) ) {
 	<?php if ( !empty( $crb_title ) ): ?>
 		<div class="section-head">
 			<div class="shell">
-				<h2 class="<?php echo (!empty($crb_white_text)) ? '' : 'white' ?>">
+				<h2 class="<?php echo (!$crb_white_text) ? '' : 'white' ?>">
 					<strong><?php echo $crb_title ?></strong>
 				</h2>
 			</div><!-- /.shell -->
 		</div><!-- /.section-head -->
 	<?php endif ?>
-
 	<div class="section-body">
 		<div class="shell">
-			<article class="article-primary <?php echo (!empty($crb_white_text)) ? '' : 'article-primary-white' ?> <?php echo $crb_animation ?>">
+			<article class="article-primary <?php echo (!$crb_white_text) ? '' : 'article-primary-white' ?> <?php echo $crb_animation ?>">
 				<div class="article-image <?php echo ( !empty( $crb_right_aligned_image ) ) ? 'alignright' : 'alignleft' ; ?>">
 					<div class="inner-image">
 						<div class="inner-group">
