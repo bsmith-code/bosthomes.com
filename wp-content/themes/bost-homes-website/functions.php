@@ -29,14 +29,14 @@ function crb_wp_enqueue_scripts() {
 
 	// wp_register_script( 'jQuery_123', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js', null, null, true );
  //    wp_enqueue_script('jQuery_123');
-	
+
 
 	# Enqueue Custom CSS files
 	# @crb_enqueue_style attributes -- id, location, dependencies, media = all
 	crb_enqueue_style( 'ionicons', $template_dir . '/assets/ionicons.min.css' );
 	crb_enqueue_style( 'theme-google-fonts', 'https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:300,400,700|Open+Sans:300,300i,400,400i,700,700i|Josefin+Sans:400,600,700|Josefin+Slab:400,400i,600,600i,700,700i|Satisfy' );
 	crb_enqueue_style( 'theme-custom-styles', $template_dir . '/assets/bundle.css' );
-    
+
     crb_enqueue_style( 'theme-owl-carousel-css', $template_dir . '/assets/owl.carousel.css' );
 
 	crb_enqueue_style( 'theme-magnific-popup', $template_dir . '/assets/magnific-popup.css' );
@@ -50,7 +50,7 @@ function crb_wp_enqueue_scripts() {
 }
 
 add_action('pre_get_posts','myfunc');
-function myfunc($query){ 
+function myfunc($query){
     if ($query->is_main_query() && $query->is_archive){
         $query->set( 'posts_per_page', -1);
     }
@@ -129,11 +129,11 @@ if ( ! function_exists( 'crb_setup_theme' ) ) {
 		// add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat' ) );
 
 		# Register Theme Menu Locations
-		
+
 		register_nav_menus(array(
 			'main-menu' => __( 'Main Menu', 'crb' ),
 		));
-		
+
 
 		# Attach custom widgets
 		include_once( CRB_THEME_DIR . 'options/widgets.php' );
@@ -150,20 +150,20 @@ if ( ! function_exists( 'crb_setup_theme' ) ) {
 		add_filter( 'excerpt_length', 'crb_excerpt_length', 999 );
 
 		# Add Custom Image Sizes
-		add_image_size( 'crb_menu_image', 52, 52, true );
-		add_image_size( 'crb_subscribe_image', 726, 193, true );
-		add_image_size( 'crb_certificate', 225, 225, true );
-		add_image_size( 'crb_text_image', 551, 338, true );
-		add_image_size( 'crb_welcome_image', 759, 436, true );
-		add_image_size( 'crb_member', 249, 329, true );
-		add_image_size( 'crb_first_member', 349, 481, true );
-		add_image_size( 'crb_gallery_image', 348, 364, true );
-		add_image_size( 'crb_blog', 680, 342, true );
-		add_image_size( 'crb_logo', 240, 109, true );
-		add_image_size( 'crb_dedication_image', 348, 825, true );
-		add_image_size( 'crb_service', 350, 230, true );
-		add_image_size( 'crb_term_logo', '', 73, true );
-		add_image_size( 'crb_gallery', 1500, 797, true );
+		// add_image_size( 'crb_menu_image', 52, 52, true );
+		// add_image_size( 'crb_subscribe_image', 726, 193, true );
+		// add_image_size( 'crb_certificate', 225, 225, true );
+		// add_image_size( 'crb_text_image', 551, 338, true );
+		// add_image_size( 'crb_welcome_image', 759, 436, true );
+		// add_image_size( 'crb_member', 249, 329, true );
+		// add_image_size( 'crb_first_member', 349, 481, true );
+		// add_image_size( 'crb_gallery_image', 348, 364, true );
+		// add_image_size( 'crb_blog', 680, 342, true );
+		// add_image_size( 'crb_logo', 240, 109, true );
+		// add_image_size( 'crb_dedication_image', 348, 825, true );
+		// add_image_size( 'crb_service', 350, 230, true );
+		// add_image_size( 'crb_term_logo', '', 73, true );
+		// add_image_size( 'crb_gallery', 1500, 797, true );
 	}
 }
 
@@ -229,7 +229,7 @@ function crb_render_page($sections, $sub_folder = "") {
 			$name = str_replace( '_', '-', $section);
 			crb_render_fragment($sub_folder . substr(array_shift( $name ), 1), $section);
 		}
-	} 
+	}
 }
 
 function crb_section_background( $image ) {
@@ -245,16 +245,16 @@ function crb_section_background( $image ) {
 
 function crb_hex_to_rgba($color, $opacity = false) {
 	$default = 'rgb(0,0,0)';
- 
+
 	//Return default if no color provided
 	if(empty($color))
-		  return $default; 
- 
-	//Sanitize $color if "#" is provided 
+		  return $default;
+
+	//Sanitize $color if "#" is provided
 		if ($color[0] == '#' ) {
 			$color = substr( $color, 1 );
 		}
- 
+
 		//Check if color has 6 or 3 characters and get values
 		if (strlen($color) == 6) {
 				$hex = array( $color[0] . $color[1], $color[2] . $color[3], $color[4] . $color[5] );
@@ -263,10 +263,10 @@ function crb_hex_to_rgba($color, $opacity = false) {
 		} else {
 				return $default;
 		}
- 
+
 		//Convert hexadec to rgb
 		$rgb =  array_map('hexdec', $hex);
- 
+
 		//Check if opacity is set(rgba or rgb)
 		if($opacity){
 			if(abs($opacity) > 1)
@@ -275,7 +275,7 @@ function crb_hex_to_rgba($color, $opacity = false) {
 		} else {
 			$output = 'rgb('.implode(",",$rgb).')';
 		}
- 
+
 		//Return rgb(a) color string
 		return $output;
 }
@@ -290,9 +290,9 @@ function crb_custom_get_page_context( $id ) {
 }
 
 function crb_get_properties( $term_id, $featured=false ) {
-	if ( $featured ) { 
+	if ( $featured ) {
 		$properties  = carbon_get_term_meta( $term_id, 'crb_featured_properties' );
-	} else { 
+	} else {
 		$properties = get_posts( array(
 			'post_type'      => 'crb_property',
 			'posts_per_page' => -1,
@@ -381,26 +381,26 @@ function crb_template_redirect() {
     exit;
 }
 
-add_filter( 'manage_tg_image_posts_columns', 'crb_add_column_for_gallery' );  
-function crb_add_column_for_gallery( $cols ) {  
-	$cols['image'] = __( 'Image', 'crb' );  
-	return $cols;  
+add_filter( 'manage_tg_image_posts_columns', 'crb_add_column_for_gallery' );
+function crb_add_column_for_gallery( $cols ) {
+	$cols['image'] = __( 'Image', 'crb' );
+	return $cols;
 }
 
-add_action( 'manage_tg_image_posts_custom_column', 'crb_pring_image_on_gallery_image_column', 10, 2 );  
+add_action( 'manage_tg_image_posts_custom_column', 'crb_pring_image_on_gallery_image_column', 10, 2 );
 function crb_pring_image_on_gallery_image_column( $column_name, $post_id ) {
-	$width = (int) 70;  
-	$height = (int) 70; 
+	$width = (int) 70;
+	$height = (int) 70;
 
-	if ( 'image' == $column_name ) {			
+	if ( 'image' == $column_name ) {
 		if ( $attachment_id = get_post_thumbnail_id($post_id) ) {
-			$thumb = wp_get_attachment_image( $attachment_id, array($width, $height), true );  
+			$thumb = wp_get_attachment_image( $attachment_id, array($width, $height), true );
 		}
-		
+
 		if ( isset($thumb) && $thumb ) {
-			echo $thumb;  
-		} else {  
-			echo _e( 'None', 'crb' );  
+			echo $thumb;
+		} else {
+			echo _e( 'None', 'crb' );
 		}
 	}
 }
