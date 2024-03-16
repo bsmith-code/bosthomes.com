@@ -33,7 +33,7 @@ $dropdown = (isset($atts['dropdown']) && $atts['dropdown'] == 'no') ? false : tr
 			</h2>
 		</div><!-- /.shell -->
 	</div><!-- /.section-head -->
-	
+
 	<?php if ( $categories ): ?>
 		<div class="section-body">
 			<div class="shell">
@@ -43,7 +43,7 @@ $dropdown = (isset($atts['dropdown']) && $atts['dropdown'] == 'no') ? false : tr
 							<input type="text" id="search" class="field" placeholder="Keyword Search..." title="Keyword Search..." />
 							<input type="submit" value="Submit" class="button" />
 						</form>
-						
+
 						<?php if ( !empty( $gallery_page ) ): ?>
 							<div class="filters-head-action">
 								<a href="<?php echo get_permalink( $main_gallery_page ); ?>" class="btn">
@@ -57,7 +57,7 @@ $dropdown = (isset($atts['dropdown']) && $atts['dropdown'] == 'no') ? false : tr
 								<select class="selectbox">
 									<option value="0"><?php _e( 'Filter by Category...', 'crb' ) ?></option>
 
-									<?php foreach ( $cats as $cat ) : 
+									<?php foreach ( $cats as $cat ) :
 										$active = "";
 										if ( $cat->term_id == $category->term_id ) {
 											$active = "current-menu-item";
@@ -66,9 +66,9 @@ $dropdown = (isset($atts['dropdown']) && $atts['dropdown'] == 'no') ? false : tr
 										$child = get_terms(array(
 											'taxonomy' => 'tg_category',
 											'parent' => $cat->term_id,
-										)); 
+										));
 
-										$link = get_permalink( $gallery_page ) . "?tg_cat=" . $cat->slug; 
+										$link = get_permalink( $gallery_page ) . "?tg_cat=" . $cat->slug;
 
 										if ( $child ) {
 											$link = get_term_link($cat->term_id, 'tg_category');
@@ -78,17 +78,17 @@ $dropdown = (isset($atts['dropdown']) && $atts['dropdown'] == 'no') ? false : tr
 											<?php echo $cat->name ?>
 										</option>
 
-										<?php if ( $child): 
+										<?php if ( $child):
 											$active = "";
 										?>
-											<?php foreach ($child as $child_cat): 
+											<?php foreach ($child as $child_cat):
 												if ( $child_cat->term_id === $category->term_id ) {
 													$active = "current-menu-item";
 												}
 											?>
 												<option  class="<?php echo $active ?>" value="<?php echo get_permalink( $gallery_page ); ?>?tg_cat=<?php echo $child_cat->slug ?>">
 													<?php echo $child_cat->name ?>
-												</option>											
+												</option>
 											<?php endforeach ?>
 										<?php endif ?>
 									<?php endforeach ?>
@@ -102,7 +102,7 @@ $dropdown = (isset($atts['dropdown']) && $atts['dropdown'] == 'no') ? false : tr
 
 					<div class="list-gallery">
 						<ul>
-							<?php foreach ($categories as $category): 
+							<?php foreach ($categories as $category):
 								$image = carbon_get_term_meta($category->term_id, 'crb_tax_image');
 								$cat = get_term($category->term_id, 'tg_category');
 								?>
@@ -111,7 +111,7 @@ $dropdown = (isset($atts['dropdown']) && $atts['dropdown'] == 'no') ? false : tr
 										<div class="inner-image inner-image-small">
 											<div class="inner-group">
 												<a href="<?php echo get_permalink( $gallery_page ); ?>?tg_cat=<?php echo $cat->slug ?>">
-													<?php echo wp_get_attachment_image( $image , 'crb_service'); ?>
+													<?php echo wp_get_attachment_image( $image , 'large'); ?>
 													<span><?php echo $cat->name ?></span>
 												</a>
 											</div><!-- /.inner-group -->
@@ -127,5 +127,5 @@ $dropdown = (isset($atts['dropdown']) && $atts['dropdown'] == 'no') ? false : tr
 	<?php endif ?>
 </section><!-- /.section -->
 
-<?php 
+<?php
 get_footer();

@@ -32,7 +32,7 @@ $cats = get_terms(array(
 						<select class="selectbox">
 							<option value="0"><?php _e( 'Filter by Category...', 'crb' ) ?></option>
 
-							<?php foreach ( $cats as $i ) : 
+							<?php foreach ( $cats as $i ) :
 								$link = get_term_link($i->term_id, $category['taxonomy']);
 								?>
 								<option class="firstlvl" value="<?php echo $link ?>">
@@ -46,10 +46,10 @@ $cats = get_terms(array(
 				</div>
 					<div class="list-gallery">
 						<ul>
-						<?php foreach ($cat as $i): 
+						<?php foreach ($cat as $i):
 							$image = carbon_get_term_meta($i['id'], 'crb_tax_image');
 							$cat = get_term($i['id'], $i['taxonomy']);
-							// $link = get_permalink( $gallery_page ) . "?tg_cat=" . $cat->slug; 
+							// $link = get_permalink( $gallery_page ) . "?tg_cat=" . $cat->slug;
 							$child = get_terms(array(
 								'taxonomy' => "crb_categories",
 								'parent' => $cat->term_id,
@@ -64,7 +64,7 @@ $cats = get_terms(array(
 									<div class="inner-image inner-image-small">
 										<div class="inner-group">
 											<a href="<?php echo $link; ?>">
-												<?php echo wp_get_attachment_image( $image , 'crb_service'); ?>
+												<?php echo wp_get_attachment_image( $image , 'large'); ?>
 
 												<span><?php echo $cat->name ?></span>
 											</a>
@@ -83,5 +83,5 @@ $cats = get_terms(array(
 
 
 </section>
-<?php 
+<?php
 get_footer();

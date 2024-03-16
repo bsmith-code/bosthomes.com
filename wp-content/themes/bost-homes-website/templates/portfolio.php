@@ -29,7 +29,7 @@ $bgcolor = carbon_get_post_meta( $id, 'crb_section_overlay' );
 							<?php foreach ($cats as $cat) {
 								$name = $cat->name;
 								$image = get_field('image', $cat);
-								$image = $image['sizes']['crb_gallery_image'];
+								$image = $image['sizes']['large'];
 								$link = get_term_link($cat->term_id, $category['taxonomy']); ?>
 								<li>
 									<div class="inner-image inner-image-small">
