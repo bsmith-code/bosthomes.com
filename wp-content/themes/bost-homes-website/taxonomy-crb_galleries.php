@@ -69,7 +69,7 @@ if ($term->parent != 0) {
 								$index = -1;
 								while ( have_posts() ) {
 									the_post();
-									$thumb = get_the_post_thumbnail_url( $post, 'crb_gallery_image' );
+									$thumb = get_the_post_thumbnail_url( $post, 'large' );
 									if ($thumb) { $index++; ?>
 										<li>
 											<div class="inner-image inner-image-small">
@@ -123,7 +123,10 @@ if ($term->parent != 0) {
 				$array[$index]['tour_link_target'] = $tour_link_target;
 				$array[$index]['tour_link'] = $tour_link;
 				$array[$index]['tour_text'] = $tour_text;
-				$src_image = get_the_post_thumbnail_url( $post, 'full' ); ?>
+				$array[$index]['image'] = get_the_post_thumbnail_url( $post, 'full' );
+
+				$src_image = get_the_post_thumbnail_url( $post, 'full' );
+				?>
 				<img src="<?php echo $src_image; ?>">
 			<?php } ?>
 		</div>
