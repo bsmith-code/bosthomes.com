@@ -52,7 +52,7 @@ if ($term->parent != 0) {
 							<?php foreach ($cats as $cat) {
 								$name = $cat->name;
 								$image = get_field('image', $cat);
-								$image = $image['sizes']['crb_gallery_image'];
+								$image = $image['sizes']['large'];
 								$link = get_term_link($cat->term_id, $category['taxonomy']); ?>
 								<li>
 									<div class="inner-image inner-image-small">
@@ -64,12 +64,12 @@ if ($term->parent != 0) {
 									<div class="filters--gallery-name"><?php echo $name ?></div>
 								</li>
 							<?php } ?>
-						<?php } else { 
+						<?php } else {
 							if ( have_posts() ) {
 								$index = -1;
 								while ( have_posts() ) {
 									the_post();
-									$thumb = get_the_post_thumbnail_url( $post, 'crb_gallery_image' ); 
+									$thumb = get_the_post_thumbnail_url( $post, 'crb_gallery_image' );
 									if ($thumb) { $index++; ?>
 										<li>
 											<div class="inner-image inner-image-small">
