@@ -1,8 +1,11 @@
-<?php 
+<?php
 $id = crb_get_page_context();
 $bgcolor = carbon_get_post_meta( $id, 'crb_section_overlay' );
+$neighborhoods = carbon_get_the_post_meta('crb_featured_neighborhood', 'association');
 
-if ( $featured = carbon_get_the_post_meta('crb_featured_neighborhood', 'association') ): ?>
+// print_r($neighborhoods);
+
+if ( $neighborhoods ): ?>
 	<section style="background-color: <?php echo $bgcolor; ?>" class="section section-pattern-primary">
 		<?php if ( $title = carbon_get_the_post_meta('crb_featured_neighborhood_title') ): ?>
 			<div class="section-head">
@@ -16,28 +19,37 @@ if ( $featured = carbon_get_the_post_meta('crb_featured_neighborhood', 'associat
 			<div class="shell">
 				<div class="inner-box active">
 					<div class="inner-group">
-						<?php foreach ($featured as $neighborhood): 
-							$button = carbon_get_term_meta($neighborhood['id'], 'crb_button_text');
+						<?php foreach ($neighborhoods as $neighborhood):
+							$neighborhood_id = absint($neighborhood['id']);
+							$button = carbon_get_term_meta($neighborhood_id, 'crb_button_text');
+
 							if ( !$button ) {
 								$button = __('more on avalaire', 'crb');
 							}
 
-							$term_link = get_term_link(absint($neighborhood['id']), $neighborhood['taxonomy']);
-							$link = carbon_get_term_meta($neighborhood['id'], 'crb_button_link');
+							// echo carbon_get_term_meta($neighborhood_id, 'crb_description');
+
+
+							$term_link = get_term_link($neighborhood_id, $neighborhood['taxonomy']);
+							$link = carbon_get_term_meta($neighborhood_id, 'crb_button_link');
+							$logo = carbon_get_term_meta($neighborhood_id, 'crb_logo');
+							$image = carbon_get_term_meta($neighborhood_id, 'crb_image');
+							$desc = carbon_get_term_meta($neighborhood_id, 'crb_description');
 							?>
-							<?php if ( $logo = carbon_get_term_meta($neighborhood['id'], 'crb_logo') ): ?>
+
+							<?php if ( $logo ): ?>
 								<div class="inner-head">
-									<?php echo wp_get_attachment_image( $logo , 'crb_service'); ?>
+									<?php echo wp_get_attachment_image( $logo , 'medium'); ?>
 								</div><!-- /.inner-head -->
 							<?php endif ?>
 
 							<div class="inner-body">
-								<?php if ( $image = carbon_get_term_meta($neighborhood['id'], 'crb_image') ): ?>
+								<?php if ( $image ): ?>
 									<div class="inner-image inner-image-hover alignright">
 										<div class="inner-group">
-											<?php echo wp_get_attachment_image( $image , 'crb_service'); ?>
-											
-											
+											<?php echo wp_get_attachment_image( $image , 'medium'); ?>
+
+
 											<a href="<?php echo $term_link ?>" class="inner-hover">
 												<span class="inner-hover-wrap"><?php _e('Available Properties', 'crb') ?></span>
 											</a>
@@ -46,12 +58,12 @@ if ( $featured = carbon_get_the_post_meta('crb_featured_neighborhood', 'associat
 								<?php endif ?>
 
 								<div class="inner-body-content">
-									<?php 
-									if ( $desc = carbon_get_term_meta($neighborhood['id'], 'crb_description') ) {
+									<?php
+									if ( $desc ) {
 										echo apply_filters('the_content', $desc);
 									}
 									?>
-									
+
 									<?php if ( $link && $button ): ?>
 										<a target="_blank" href="<?php echo $link; ?>" class="btn">
 											<span><?php echo apply_filters("the_title", $button); ?></span>

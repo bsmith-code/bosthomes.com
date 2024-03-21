@@ -8,7 +8,7 @@ function crb_wp_enqueue_scripts() {
 	$template_dir = get_template_directory_uri();
 
 	# Enqueue jQuery
-	//wp_enqueue_script( 'jquery' );
+	// wp_enqueue_script('jquery', false, array(), false, false);
 
 	$api_key = carbon_get_theme_option('crb_google_map_api_key');
 
@@ -26,10 +26,6 @@ function crb_wp_enqueue_scripts() {
 	crb_enqueue_script( 'galleria_theme_js', $template_dir . '/includes/galleria/themes/classic/galleria.classic.min.js', array( 'jquery' ), true );
 	crb_enqueue_script( 'galleria_history', $template_dir . '/includes/galleria/plugins/history/galleria.history.min.js', array( 'jquery' ), true );
 	crb_enqueue_script( 'theme-functions', $template_dir . '/js/functions.js', array( 'jquery' ), true );
-
-	// wp_register_script( 'jQuery_123', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js', null, null, true );
- //    wp_enqueue_script('jQuery_123');
-
 
 	# Enqueue Custom CSS files
 	# @crb_enqueue_style attributes -- id, location, dependencies, media = all
@@ -143,7 +139,7 @@ if ( ! function_exists( 'crb_setup_theme' ) ) {
 
 		# Add Actions
 		add_action( 'widgets_init', 'crb_widgets_init' );
-		add_action( 'carbon_register_fields', 'crb_attach_theme_options' );
+
 
 		# Add Filters
 		add_filter( 'excerpt_more', 'crb_excerpt_more' );
@@ -188,6 +184,7 @@ function crb_get_default_sidebar_options() {
 	);
 }
 
+add_action( 'carbon_register_fields', 'crb_attach_theme_options', 1 );
 function crb_attach_theme_options() {
 	# Attach fields
 	include_once( CRB_THEME_DIR . 'options/theme-options.php' );
@@ -429,8 +426,8 @@ function my_custom_fonts() {
 function admin_js() {
 	if($_GET['post_type'] != "crb_gallery" && $_GET['taxonomy'] != "crb_galleries"){
 		$template_dir = get_template_directory_uri();
-	    wp_register_script( 'admin_jquery_js',$template_dir . '/js/jquery-3.6.0.min.js', array( 'jquery'),true);
-	    wp_enqueue_script('admin_jquery_js');
+	    // wp_register_script( 'admin_jquery_js',$template_dir . '/js/jquery-3.6.0.min.js', array( 'jquery'),true);
+	    // wp_enqueue_script('admin_jquery_js');
     }
 
     // wp_register_script( 'admin_jquery_js_sgdg','https://code.jquery.com/ui/1.12.1/jquery-ui.js', array( 'jquery'),true);
