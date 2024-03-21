@@ -102,26 +102,20 @@ textarea {
 .gform_wrapper form > * { position: relative; z-index: 10; }
 .gform_wrapper  .gform_heading { text-align: center; width: 100%; padding-bottom: 40px; }
 .gform_wrapper  .gform_heading h3 { text-transform: uppercase; color: #fff; display: inline-block; vertical-align: top; font-weight: 400; padding: 0; position: relative; }
-/* .gform_wrapper  .gform_heading h3:before,
-.gform_wrapper  .gform_heading h3:after { content: ' '; position: absolute; top: 50%; background: url(images/sprite.png) no-repeat 0 0; width: 92px; height: 40px; opacity: 0.50; }
-.gform_wrapper  .gform_heading h3:before,
-.gform_wrapper  .gform_heading h3:after {
-	-webkit-transform: translate(0,-50%);
-			transform: translate(0,-50%);
-}
-.gform_wrapper  .gform_heading h3:before { left: 0; background-position: -255px -5px; }
-.gform_wrapper  .gform_heading h3:after { right: 0; background-position: -255px -45px; } */
 .gform_wrapper  .gform_body { position: relative; margin: -10px; }
+.gform_wrapper  .gform_body .gfield { margin-bottom: 8px; }
 .gform_wrapper  .gform_body:after { content: ' '; display: table; clear: both; }
 .gform_wrapper  .gform_body > ul { list-style: none; float: left; position: relative; padding: 0; width: 50%; padding: 10px; margin: 0; }
 .gform_wrapper  .gform_body > ul > li { padding: 0 0 20px 0; width: 100%; }
 .gform_wrapper  .gform_body > ul > li:before { display: none; }
-.gform_wrapper  .ginput_container input,
+.gform_wrapper  .ginput_container input:not([type="radio"]),
 .gform_wrapper  .ginput_container textarea { border: 0; width: 100%; padding: 0 14px; font-size: 14px; line-height: 1.1; color: #999; height: 35px; font-family: $font-montserrat; font-weight: 300; }
 .gform_wrapper  .ginput_container input,
+.gform_wrapper  .ginput_container select,
 .gform_wrapper  .ginput_container textarea {
 	-webkit-transition: color 0.4s;
 			transition: color 0.4s;
+			color: #000;
 }
 .gform_wrapper  .ginput_container input:focus,
 .gform_wrapper  .ginput_container textarea:focus { color: #000; }
