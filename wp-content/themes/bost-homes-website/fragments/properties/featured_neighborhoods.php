@@ -21,56 +21,60 @@ if ( $neighborhoods ): ?>
 					<div class="inner-group">
 						<?php foreach ($neighborhoods as $neighborhood):
 							$neighborhood_id = absint($neighborhood['id']);
+							$term = get_term($neighborhood_id);
 							$button = carbon_get_term_meta($neighborhood_id, 'crb_button_text');
 
 							if ( !$button ) {
 								$button = __('more on avalaire', 'crb');
 							}
 
-							// echo carbon_get_term_meta($neighborhood_id, 'crb_description');
-
 
 							$term_link = get_term_link($neighborhood_id, $neighborhood['taxonomy']);
 							$link = carbon_get_term_meta($neighborhood_id, 'crb_button_link');
 							$logo = carbon_get_term_meta($neighborhood_id, 'crb_logo');
 							$image = carbon_get_term_meta($neighborhood_id, 'crb_image');
-							$desc = carbon_get_term_meta($neighborhood_id, 'crb_description');
+							// $desc = carbon_get_term_meta($neighborhood_id, 'crb_description');
+							$desc = $term->description;
 							?>
 
-							<?php if ( $logo ): ?>
-								<div class="inner-head">
-									<?php echo wp_get_attachment_image( $logo , 'medium'); ?>
-								</div><!-- /.inner-head -->
-							<?php endif ?>
-
-							<div class="inner-body">
-								<?php if ( $image ): ?>
-									<div class="inner-image inner-image-hover alignright">
-										<div class="inner-group">
-											<?php echo wp_get_attachment_image( $image , 'medium'); ?>
-
-
-											<a href="<?php echo $term_link ?>" class="inner-hover">
-												<span class="inner-hover-wrap"><?php _e('Available Properties', 'crb') ?></span>
-											</a>
-										</div><!-- /.inner-group -->
-									</div><!-- /.inner-body-map -->
+							<div style="margin-bottom: 32px;">
+								<?php if ( $logo ): ?>
+									<div class="inner-head">
+										<?php echo wp_get_attachment_image( $logo , 'medium'); ?>
+									</div><!-- /.inner-head -->
 								<?php endif ?>
 
-								<div class="inner-body-content">
-									<?php
-									if ( $desc ) {
-										echo apply_filters('the_content', $desc);
-									}
-									?>
+								<div class="inner-body">
+									<?php if ( $image ): ?>
+										<div class="inner-image inner-image-hover alignright">
+											<div class="inner-group">
+												<?php echo wp_get_attachment_image( $image , 'medium'); ?>
 
-									<?php if ( $link && $button ): ?>
-										<a target="_blank" href="<?php echo $link; ?>" class="btn">
-											<span><?php echo apply_filters("the_title", $button); ?></span>
-										</a>
+
+												<a href="<?php echo $term_link ?>" class="inner-hover">
+													<span class="inner-hover-wrap"><?php _e('Available Properties', 'crb') ?></span>
+												</a>
+											</div><!-- /.inner-group -->
+										</div><!-- /.inner-body-map -->
 									<?php endif ?>
-								</div><!-- /.inner-body-content -->
-							</div><!-- /.inner-body -->
+
+									<div class="inner-body-content">
+										<?php
+										if ( $desc ) {
+											echo apply_filters('the_content', $desc);
+										}
+										?>
+
+										<?php if ( $link && $button ): ?>
+											<a target="_blank" href="<?php echo $link; ?>" class="btn">
+												<span><?php echo apply_filters("the_title", $button); ?></span>
+											</a>
+										<?php endif ?>
+									</div><!-- /.inner-body-content -->
+								</div><!-- /.inner-body -->
+
+							</div>
+
 						<?php endforeach ?>
 					</div><!-- /.inner-group -->
 				</div><!-- /.inner-box -->

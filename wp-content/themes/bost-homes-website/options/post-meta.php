@@ -258,7 +258,7 @@ Container::make( 'term_meta', __( 'Neighborhoods Options', 'crb' ) )
 	->add_fields(array(
 		Field::make( 'image', 'crb_logo' ),
 		Field::make( 'image', 'crb_image' ),
-		Field::make( 'rich_text', 'crb_description' ),
+		// Field::make( 'rich_text', 'crb_description' ),
 		Field::make( 'map_with_address', 'crb_address' ),
 		Field::make( 'text', 'crb_button_text' ),
 		Field::make( 'text', 'crb_button_link' ),
